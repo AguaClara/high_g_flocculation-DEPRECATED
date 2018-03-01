@@ -9,7 +9,7 @@ Overarching Goal: Optimizing Flocculation!! :O
 
 
 
-# Team Members: 
+# Team Members
 Roswell Lo  ( rl732@cornell.edu)
 Mehrin Selimgir (ms3442@cornell.edu)
 Kanha Matai (km694@cornell.edu)
