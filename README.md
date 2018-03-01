@@ -10,9 +10,9 @@ Overarching Goal: Optimizing Flocculation!! :O
 
 
 # Team Members
-Roswell Lo  ( rl732@cornell.edu)
-Mehrin Selimgir (ms3442@cornell.edu)
-Kanha Matai (km694@cornell.edu)
+Roswell Lo  ( rl732@cornell.edu)  516-754-4599
+Mehrin Selimgir (ms3442@cornell.edu) 732-379-2823
+Kanha Matai (km694@cornell.edu) 484-560-9003
 
 # Links to Reports 
 
