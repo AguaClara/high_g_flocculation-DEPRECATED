@@ -86,6 +86,10 @@ Additionally, another very interesting observation from this trial is the sudden
 
 Make sure that you defend your conclusions with facts and results.*
 
+From comparing trials using Hydrophobic and Non-Hydrophobic tubing, there was no noticeable difference in pressure increase. Hydrophobic tubing is not effective in our experiments in prevent pressure incresae, so research teams will be advised to continue using Non-Hydrophobic tubing. 
+
+
+
 ## Future Work
 *Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?*
 
