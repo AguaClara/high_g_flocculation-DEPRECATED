@@ -33,11 +33,17 @@ The High G Flocculation team hypothesizes that coagulant buildup in the floccula
 
 ## Methods
 MEHRIN
-Flocculator design parameters were determined through MatCAD and sedimentation design parameters were based on values dervied from the High Rate Sedimentation Summer 2017 team. These values are tabulated below.
+### Experimental Apparatus
+Flocculator design parameters were determined through MatCAD and sedimentation design parameters were based on values derived from the High Rate Sedimentation Summer 2017 team. These values are tabulated below.
+![FlocParameters](https://github.com/MehrinSelimgir/Personal_MS/blob/master/FlocParameters.PNG?raw=true)
 
 Overall, the experimental setup consists of a flocculator, clay and coagulant reservoirs, tube settler, and five distinct pumps. Tabulated below is a summary of the experimental materials and their respective functions.
 
-A pressure sensor is incorporated into our experimental (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail. Additionally, a pressure attenuator is incorporated into our setup (located between the water pump and influent turbidimeter), 
+![ApparatusMaterials](https://github.com/MehrinSelimgir/Personal_MS/blob/master/ApparatusMaterials.PNG?raw=true)
+
+A pressure sensor is incorporated into our experimental setup (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail. Additionally, a pressure attenuator is incorporated into our setup (located between the water pump and influent turbidimeter), to mitigate the large pressure release to the flocculator from each perstaltic water pump rotation.
+
+It is important to note that a waste stream between the flocculator and tube settler is also incorporated into the experimental setup. The intention of this waste stream is to fluctuate flow rate between the flocculator and the sedimentation tank to allow varying G values in the flocculator while maintaining a constant upflow velocity in the sedimentation tank.
 
 
 
@@ -45,21 +51,6 @@ A pressure sensor is incorporated into our experimental (located at the inlet an
 
 
 
-*Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results*
-
-### Experimental Apparatus
-*Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
-* Design (calculations, constraints)
-
-  $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
-* Schematic (label parts)
-
-  <img src="https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/IMG_0009.jpg?raw=true" height=250 width=200>
-
-* Image (from lab; label parts)
-* Materials (dimensions, materials)
-* Complications in construction
-* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described*
 
 ### Procedure
 *Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?*
