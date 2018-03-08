@@ -58,6 +58,7 @@ It is important to note that a waste stream between the flocculator and tube set
 ## Results and Analysis
 
 When conducting the experiment comparing the headloss in identical experiments with solely changing the tubing from regular tubing to hydrophobic tubing we achieved the following results.
+
 ![nonhydrophobic]() ![hydrophobic]()
  
 From these results we were able to see and insignificant result. In both experiments, the trial started at around 70cm and after 10 hours reached 120cm at a constant rate. This showed that the hydrophobic tubing was inefftive at minimizing headloss due to the coagulant. Hence we begun to test what exactly was causing the pressure build-up, hence we began testing individual components. We first tested just water to ensure this effect is not a mere natural thing caused by water in our system. Hence we ran a trial by running just water through the pipe.
