@@ -59,27 +59,27 @@ It is important to note that a waste stream between the flocculator and tube set
 
 When conducting the experiment comparing the headloss in identical experiments with solely changing the tubing from regular tubing to hydrophobic tubing we achieved the following results.
 
-![nonhydrophobic]() ![hydrophobic]()
+![nonhydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20Regular%20tubing.PNG?raw=true) ![hydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20hydrophobic%20tubing.PNG?raw=true)
  
 From these results we were able to see and insignificant result. In both experiments, the trial started at around 70cm and after 10 hours reached 120cm at a constant rate. This showed that the hydrophobic tubing was inefftive at minimizing headloss due to the coagulant. Hence we begun to test what exactly was causing the pressure build-up, hence we began testing individual components. We first tested just water to ensure this effect is not a mere natural thing caused by water in our system. Hence we ran a trial by running just water through the pipe.
 
-![just water]()
+![just water](https://github.com/AguaClara/high_g_flocculation/blob/master/water%20only.PNG?raw=true)
 
 This experiment eliminated the possibility that the pressure build up was caused simply due to the actual set up of this experiment. This was what we hypothesized as whenever we started a new trial, we were able to start at the same pressure everytime. However, we were unable to predict the minute drop in pressure, however, this could attributed to changes in viscosity due to temperature changes throughout the day. We then began testing water with coagulant.
 
-![water+coagulant,regtub]()
+![water+coagulant,regtub](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing.PNG?raw=true)
 
 Due to some an overnight issue, we were solely able to obtain 3 hours of valuable data for this trial. This experiment surprised us as it was not what we hypothesized.We believed it was the combination of both the coagulant along with the clay that was causing the headloss. Instead, this data shows that the coagulant alone causes the pressure increase. In fact, the pressure increase was even more significant. Within 3 hours, the pressure was able to rise from 70cm to 95cm, which is half the change when run with clay in a third of the time. This experiment was conducted with regular tubing, and hence, to ensure the hydrophobic tubing makes an insignificant difference in headloss, we ran an experiment with hydrophobic tubing too.
 
-![water+coagulant,hydtub]()
+![water+coagulant,hydtub](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Hydrophobic%20Tubing.PNG?raw=true)
 
 Looking at the data, we can see a continuous build-up of pressure. To fairly compare the results from the hydrophobic test and the regular tubing, we looked at the graphs for the first three hours of both experiments due to only having 3-hour long trial for regular tubing. The axes have been matched the axes to visually compare notice the difference between the two. From the experiment, the headloss with the change with hydrophobic tubing was almost half the change with regular tubing (15cm versus 25cm).
 
-![water+coagulant,hydtub3]() ![water+coagulant,regtub3]() 
+![water+coagulant,regtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing.PNG?raw=true) ![water+coagulant,hydtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Hydrophobic%20Tubing(3).PNG?raw=true) 
 
 Additionally, another very interesting observation from this trial is the sudden drop in pressure around the 12th hour- this is when the coagulant ran out. This potentially proves that running water for a short amount of time without coagulant can actually clear out the coagulant. A more focused graph at the 12th hour shows we were able to lose almost all of the built up pressure within 2 minutes. Hence,  ramping up water flow to 4x that of the trial could mean removing all of the built-up pressure in 30 seconds.(note: the x-axis has been changed to minutes to get a more precise and understandable reading). This loss in pressure could be due to the pumping in of air bubbles as the coagulant pump continued to run, however this will be our future tests.
 
-![pressuredrop]()
+![pressuredrop](https://github.com/AguaClara/high_g_flocculation/blob/master/pressuredrop.PNG?raw=true)
 
 ## Conclusions
 *Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
