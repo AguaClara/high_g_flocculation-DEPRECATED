@@ -27,6 +27,10 @@ Last semester, the High G team measured the pressure increase through the floccu
 
 The pressure throughout the flocculator increased about 12 cm in 10 hours. The change in effluent turbidity throughout did not change. Prior research from the High Rate Sedimentation research team has indicated that at higher upflow velocity in the sedimentation tank, the floc blanket will decay and the effluent turbidity increases throughout a similar experimental trial, likely from the increase in pressure in the flocculator.
 
+![SedTankDecay](https://www.overleaf.com/docs/11173977ftrfnxyhrpyv/atts/67486838)
+
+The above graph shows a decrease in removal efficiency with time in the High Rate Sedimentation team's experiment at 3 mm/s upflow velocity in the sedimentation tank.  The higher upflow velocity shows a more pronounced difference in removal efficiency compared to High G Flocculation's Fall 2017 experiment where removal efficiency did not decline with time using a sedimentation tank upflow velocity for 2 mm/s.
+
 The High G Flocculation team hypothesizes that coagulant buildup in the flocculator is the main contributor towards the observed increase in pressure different throughout the flocculator.
 
 
@@ -86,8 +90,9 @@ Additionally, another very interesting observation from this trial is the sudden
 
 Make sure that you defend your conclusions with facts and results.*
 
-From comparing trials using Hydrophobic and Non-Hydrophobic tubing, there was no noticeable difference in pressure increase. Hydrophobic tubing is not effective in our experiments in prevent pressure incresae, so research teams will be advised to continue using Non-Hydrophobic tubing. 
+From comparing trials using Hydrophobic and Non-Hydrophobic tubing, there was no noticeable difference in pressure increase. Hydrophobic tubing is not effective in our experiments in prevent pressure increase, so research teams will be advised to continue using Non-Hydrophobic tubing.
 
+By measuring the pressure increase in the flocculator in separate trials measuring only water, water and coagulant, and water, clay and coagulant, the team was able to isolate coagulant as the main contributor of pressure increase in the flocculator.  Future experiments will focused on reducing coagulant build up in the flocculator in order to lower the amount of pressure increase.
 
 
 ## Future Work
