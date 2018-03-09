@@ -3,17 +3,16 @@
 #### March 9, 2018
 
 ## Abstract
-Previously, the High G team designed an experimental setup to test the effects of velocity gradient on flocculator performance. Specifically the team sought to determine an optimal G value through effluent turbidity results.
+Previously, the High G team designed an experimental setup to test the effects of velocity gradient (G) on flocculator performance. Specifically the team sought to determine an optimal G value through effluent turbidity results.
 
 For this semester, the team aspires to continue to conduct experiments to conclude on an optimal G value. Additionally, the team seeks to evaluate the use of hydrophobic tubing to minimize headloss, assess whether headloss can be mitigate through a sudden, short increase in pump speed, and overall to determine a relationship between coagulant dose and optimal G. As of now, our team has concluded that hydrophobic tubing does not significantly mitigate headloss.   
 
-*Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)*
+
 
 ## Introduction
 Flocculation is the water treatment process in which particles, which have had their charges neutralized through coagulation, are prompted to collide and aggregate with other particles to form flocs. The intention is that once these flocs conglomerate, they will settle out due to gravity during sedimentation. A driving factor in the formation of these flocs is from particle shear in the flocculator. For our specific experimental setup, flocs are solely composed of clay particles and coagulant (PACl). A fraction of the surface of the clay particles is covered in coagulant and when these particles are prompted to collide, a successful collision occurs due to electrostatic attraction: the positively charged coagulant particle neutralizes the negatively charged clay particle. The likelihood of such collisions to occur increases when particles scatter around at different velocities, hence a flocculator subjects flow to a specific velocity gradient.
 
 
-*Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?*
 
 ## Literature Review and Previous Work
 
@@ -35,29 +34,55 @@ The High G Flocculation team hypothesizes that coagulant buildup in the floccula
 
 
 
-## Methods
-MEHRIN
+# Methods
+
 ### Experimental Apparatus
-Flocculator design parameters were determined through MatCAD and sedimentation design parameters were based on values derived from the High Rate Sedimentation Summer 2017 team. These values are tabulated below.
-![Flocparameter](https://github.com/MehrinSelimgir/Personal_MS/blob/master/Flocparameter.PNG?raw=true)
+This section will briefly describe key components of the team's experimental apparatus and explain their purpose. A more detailed description of the governing design calculations, ProCoDA variables and set points, and experimental setup can be found in the Manual available at the end of this report.
+###The High G Setup
+![ExperimentalApparatus](https://github.com/AguaClara/high_g_flocculation/blob/master/ExperimentalApparatus.PNG?raw=true)
+**Figure 1: High G Experimental Apparatus**
 
-Overall, the experimental setup consists of a flocculator, clay and coagulant reservoirs, tube settler, and five distinct pumps. Tabulated below is a summary of the experimental materials and their respective functions.
+As shown in Figure 1 above, the overall experimental setup consists of a flocculator, clay and coagulant reservoirs, tube settler, and five distinct pumps. For this semester, two different flocculator tubing were used: hydrophobic and regular tubing. Regular tubing is depicted in Figure 1 above. Tabulated below is a summary of the experimental materials and their respective functions.
 
-![ApparatusMaterials](https://github.com/MehrinSelimgir/Personal_MS/blob/master/ApparatusMaterials.PNG?raw=true)
+![ApparatusMaterials](https://github.com/MehrinSelimgir/Personal_MS/blob/master/EquipmentFunctions.PNG?raw=true)
 
-A pressure sensor is incorporated into our experimental setup (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail. Additionally, a pressure attenuator is incorporated into our setup (located between the water pump and influent turbidimeter), to mitigate the large pressure release to the flocculator from each perstaltic water pump rotation.
+###Key Components
+Flocculator design parameters were determined through Python calculations(detailed in the Manual below) and sedimentation design parameters were based on values derived from the High Rate Sedimentation Summer 2017 team. Furthermore, influent turbidity, coagulant dose, and residence time within the sedimentation tank were pre-established by all the Particle Removal subteams. A summary of these values are tabulated below.
+
+![Flocparameter](https://github.com/MehrinSelimgir/Personal_MS/blob/master/FlocculatorParameters.PNG?raw=true)
+
+
+
+A pressure sensor, circled in red in Figure 2 below, is incorporated into our experimental setup (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail.
+
+![pressuresensor](https://github.com/MehrinSelimgir/Personal_MS/blob/master/pressuresensor.PNG?raw=true)
+**Figure 2: Close-up of the Pressure Sensor**
+
+Additionally, a pressure attenuator (denoted in Figure 1) is incorporated into our setup (located between the water pump and influent turbidimeter), to mitigate the large pressure release to the flocculator from each perstaltic water pump rotation.
+
+
 
 It is important to note that a waste stream between the flocculator and tube settler is also incorporated into the experimental setup. The intention of this waste stream is to fluctuate flow rate between the flocculator and the sedimentation tank to allow varying G values in the flocculator while maintaining a constant upflow velocity in the sedimentation tank.
 
-
-
-
-
-
-
-
 ### Procedure
-*Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?*
+The following is a general outline of the team's experimental setup. Refer to Figure 1 for images and locations of the stated equipment.
+
+1. The water pump is used to vary the velocity of influent stream through the flocculator,and therefore varies G in a controlled manner.
+2. The clay pump contaminates clean water with a well-mixed clay solution.  The pump and influent turbidimeter together used PID control to maintain a constant influent turbidity of 100 NTU.
+3. The PaCl coagulant pump introduces PaCl coagulant to the well-mixed clay-water solution. The clay-water solution enters the flocculator where clay particles collide and aggregate to form large flocs.
+4. To account for the difference in  
+flow between the water pump and the  effluent pump, a wastestream between the flocculator and sedimentation tube is introduced to maintain a constant up
+flow velocity through the sedimentation tube. The sedimentation tube is an apparatus that is intended to mimic the function of a sedimentation tank in a full-scale treatment plant.
+5. The flocs enter the bottom of the tube settler. The larger and denser particles settle out and are carried out to the waste stream.
+6. The treated water, passing through the tube settler, exits the top and enters the effluent turbidimeter and are subsequently  carried out through the waste stream.
+7. The waste pump acts to ensure that settled flocs in the tube settler exit the system without clogging the tubes.
+8. The effluent pump ensures that the upflow velocity within the tube settler is kept at 2 mm/s, as recommended by the High Rate Sedimentation subteam.
+
+Figure 4, below, is a general process flow diagram of High G Flocculation experimental procedure.
+
+![ProcessFlowDiagram](https://github.com/MehrinSelimgir/Personal_MS/blob/master/ProcessFlowDiagram.PNG?raw=true)
+**Figure 4: High G Flocculation Process Flow Diagram**
+
 
 ## Results and Analysis
 
@@ -124,7 +149,22 @@ Step 1.
 Step 1.
 
 ## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
+**(Including Pre-Experiment Cleaning)**
+
+The following is a general outline of tasks to be done prior, during, and after experimentation.
+
+1. Drain the sedimentation tank and flocculator from previous experimental trial, if necessary.
+2. Refill clay and coagulant stock tanks.
+3. Run tap water through the system to rinse the flocculator, sedimentation tank, and connecting piping.
+4. Rinse and refill turbidimeters.
+5. Use Python coagulant dosing calculation to determine the required coagulant pump speed for the desired coagulant dosage.
+6. Check all valves and connections to make sure desired pathways are clear and undesired pathways are blocked.
+7. Verify all influent, effluent and coagulant pumps are set to desired experimental flow rates.
+8. Turn on influent pump to fill sedimentation tank with clean water.
+9. Plug in clay stock stirrer if not already plugged in.
+10. Turn on influent, effluent, and coagulant  pumps.
+11. Set state to PID control in ProCoDA (this will turn on clay pump and also turn on data collection).
+
 
 ## ProCoDA Method File
 Use this section to explain your method file. This could be broken up into several components as shown below:
@@ -139,25 +179,102 @@ Here, you should describe the function of each state in your method file, both i
 Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
 
 ## Python Code
+Calculations were done in Python to determine PaCl coagulant dosing parameters and flocculator design parameters in order to run experiments and construct experimental apparatus.
 
-### Variables
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
+###PaCl Dosing Calculations
+
 
 ```python
-# Comment
-```
+from aide_design.play import*
 
+#inputs
+C_sys = 1.4*(u.mg/u.L)
+C_labstock = 70.9*(u.g/u.L)
+Q_sys = 1.48*(u.mL/u.s)
+K_dilution = .8*(u.mL/u.L)
+V_resivor = 5*(u.L)
+Frac_resivor = .76
+Q_per_rpm = .001828 *(u.mL/u.s)
+
+#Calculations
+M_flow_coag = (Q_sys * C_sys).to(u.mg/u.s)
+C_resivor = (C_labstock * K_dilution).to(u.gram/u.L)
+Q_resivor = (M_flow_coag / C_resivor).to(u.mL/u.s)
+V_lab = ((V_resivor * C_resivor) / C_labstock).to(u.L)
+
+#Outputs
+RPM = Q_resivor / Q_per_rpm
+RunTime = ((V_resivor * Frac_resivor) / Q_resivor).to(u.hour)
+
+print('The RPM needed for this coagulent dosage is' ,RPM)
+
+print('The run time is ', RunTime)
+```
+### Flocculator Design Calculations
+
+```python
+
+from aide_design.play import*
+import math as m
+
+
+#Inputs
+Q_reactor=(4/3) *(u.mL/u.s) # flow rate of the system
+Gtheta_goal=20000 #target G*theta to design flocculator to
+Diam_floctube=(3/16)*(u.inch)
+R_c=5*u.cm #radius of curvature (the radius of the tube the flocculator is wrapped around)
+Re_pipetransition=2100
+v=(1*10**-6)*(u.m**2/u.s)
+e_pvc=0.12*u.mm #roughness of PVC Re_pipetransition
+
+#Calculations
+Re_f= ((4*Q_reactor)/(np.pi*Diam_floctube*v)).to(u.dimensionless)
+
+
+print(Re_f)
+
+
+#def fric_function(Q_reactor,Diam_floctube,v,e_pvc)
+if Re_f > Re_pipetransition:
+  print('Re_f is greater than Re_pipetransition')
+  fric=0.25/((m.log((e_pvc/3.7*Diam_floctube)+(5.74/(Re_f**0.9))))**2)
+else:
+  fric=64/(Re_f)
+  print('Re_f is not greater than Re_pipetransition')
+  print(fric)
+L=1
+h_f=fric*(8/(pc.gravity*np.pi**2))*((L*Q_reactor**2)/(Diam_floctube**5))
+
+
+
+R=R_c.to(u.inch)
+
+De=(((Diam_floctube/R)**2)*Re_f)
+print(De)
+
+friction_ratio=1+(0.33*m.log(De)**4)
+print(friction_ratio)
+
+h_friction=h_f*friction_ratio
+Area=(np.pi/4)*Diam_floctube**2
+theta=(Area*L)/Q_reactor
+
+ED_floc=(h_friction*pc.gravity)/theta
+
+epsilon=ED_floc.to(u.mW/u.kg)
+print('Energy dissipation rate is',epsilon)
+
+G_floc=((epsilon/v)**(1/2)).to(u.second**-1)
+print(G_floc)
+
+theta_goal=(Gtheta_goal/G_floc).to(u.minute)
+print(theta_goal)
+
+L_goal=theta_goal*(Q_reactor/Area)
+
+L_floc=L_goal
+print('The length of flocculator tubing should be', L_floc.to(u.ft))
+```
 
 
 ```python
