@@ -1,7 +1,7 @@
 #Flocculator Design Calculations
 
-
 ```python
+
 from aide_design.play import*
 import math as m
 
@@ -38,10 +38,10 @@ h_f=fric*(8/(pc.gravity*np.pi**2))*((L*Q_reactor**2)/(Diam_floctube**5))
 R=R_c.to(u.inch)
 
 De=(((Diam_floctube/R)**2)*Re_f)
-print(De)
+#print(De)
 
 friction_ratio=1+(0.33*m.log(De)**4)
-print(friction_ratio)
+#print(friction_ratio)
 
 h_friction=h_f*friction_ratio
 Area=(np.pi/4)*Diam_floctube**2
@@ -50,32 +50,21 @@ theta=(Area*L)/Q_reactor
 ED_floc=(h_friction*pc.gravity)/theta
 
 epsilon=ED_floc.to(u.mW/u.kg)
-print(epsilon)
+#print('Energy dissipation rate is',epsilon)
 
 G_floc=((epsilon/v)**(1/2)).to(u.second**-1)
-print(G_floc)
+#print(G_floc)
 
 theta_goal=(Gtheta_goal/G_floc).to(u.minute)
-print(theta_goal)
+#print(theta_goal)
 
 L_goal=theta_goal*(Q_reactor/Area)
 
 L_floc=L_goal
 print('The length of flocculator tubing should be', L_floc.to(u.ft))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print('Mehrin is a blessing!')
 
 ```
+
+<3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3
