@@ -47,7 +47,7 @@ As shown in Figure 1 above, the overall experimental setup consists of a floccul
 ![ApparatusMaterials](https://github.com/MehrinSelimgir/Personal_MS/blob/master/EquipmentFunctions.PNG?raw=true)
 
 ###Key Components
-Flocculator design parameters were determined through Python calculations(detailed in the Manual below) and sedimentation design parameters were based on values derived from the High Rate Sedimentation Summer 2017 team. Furthermore, influent turbidity, coagulant dose, and residence time within the sedimentation tank were pre-established by all the Particle Removal subteams. A summary of these values are tabulated below.
+Flocculator design parameters were determined through Python calculations(detailed in the Manual section) and sedimentation design parameters were based on values derived from the High Rate Sedimentation Summer 2017 team. Furthermore, influent turbidity, coagulant dose, and residence time within the sedimentation tank were pre-established by all the Particle Removal subteams. A summary of these values are tabulated below.
 
 ![Flocparameter](https://github.com/MehrinSelimgir/Personal_MS/blob/master/FlocculatorParameters.PNG?raw=true)
 
