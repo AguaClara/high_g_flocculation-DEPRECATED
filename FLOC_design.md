@@ -9,7 +9,7 @@ import math as m
 #Inputs
 Q_reactor=(4/3) *(u.mL/u.s) # flow rate of the system
 Gtheta_goal=20000 #target G*theta to design flocculator to
-Diam_floctube=(1/8)*(u.inch)
+Diam_floctube=(3/16)*(u.inch)
 R_c=5*u.cm #radius of curvature (the radius of the tube the flocculator is wrapped around)
 Re_pipetransition=2100
 v=(1*10**-6)*(u.m**2/u.s)
