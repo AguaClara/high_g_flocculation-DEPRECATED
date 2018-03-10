@@ -5,34 +5,40 @@
 ## Abstract
 Previously, the High G team designed an experimental setup to test the effects of velocity gradient (G) on flocculator performance. Specifically the team sought to determine an optimal G value through effluent turbidity results.
 
-For this semester, the team aspires to continue to conduct experiments to conclude on an optimal G value. Additionally, the team seeks to evaluate the use of hydrophobic tubing to minimize headloss, assess whether headloss can be mitigate through a sudden, short increase in pump speed, and overall to determine a relationship between coagulant dose and optimal G. As of now, our team has concluded that hydrophobic tubing does not significantly mitigate headloss.   
+For this semester, the team aspires to continue to conduct experiments to determine an optimal G value. Additionally, the team seeks to evaluate the use of hydrophobic tubing to minimize headloss, assess whether headloss can be mitigated through a sudden, short increase in pump speed, and to determine a relationship between coagulant dose and optimal G. As of now, the team has concluded that hydrophobic tubing does not significantly mitigate headloss.   
 
 
 
 ## Introduction
-Flocculation is the water treatment process in which particles, which have had their charges neutralized through coagulation, are prompted to collide and aggregate with other particles to form flocs. The intention is that once these flocs conglomerate, they will settle out due to gravity during sedimentation. A driving factor in the formation of these flocs is from particle shear in the flocculator. For our specific experimental setup, flocs are solely composed of clay particles and coagulant (PACl). A fraction of the surface of the clay particles is covered in coagulant and when these particles are prompted to collide, a successful collision occurs due to electrostatic attraction: the positively charged coagulant particle neutralizes the negatively charged clay particle. The likelihood of such collisions to occur increases when particles scatter around at different velocities, hence a flocculator subjects flow to a specific velocity gradient.
+Flocculation is a critical component of  the water treatment process in which particles, which have had their charges neutralized through coagulation, are prompted to collide and aggregate with other particles to form flocs. The intention is that once these flocs conglomerate, they will settle out due to gravity during sedimentation. A driving factor in the formation of these flocs is from particle shear in the flocculator. For High G's specific experimental setup, flocs are solely composed of clay particles and coagulant (PACl). A fraction of the surface of the clay particles is covered in coagulant and when these particles are prompted to collide, a successful collision occurs due to electrostatic attraction: the positively charged coagulant particle neutralizes the negatively charged clay particle. The likelihood of such collisions to occur increases when particles scatter around at different velocities, hence a flocculator subjects flow to a specific velocity gradient.
 
+Last semester, High G Flocculation worked on experimentally determining the ideal G value for flocculator performance by varying G and residence time values through the flocculator while keeping all other variables in the setup constant. An overarching goal for this semester is to continue to determine an optimal G value and model a relationship between coagulant dose and optimal G. However, a continuous issue is the pressure build up in the flocculator. To mitigate this, the team this semester seeks to evaluate hydrophobic tubing as a potential solution to pressure buildup.
+
+Although AguaClara plants consistently meet drinking water standards  for  Honduras,  they  do  not  consistently  meet  US  EPA  standards,  thus  improvements in plant design that produce predictable reductions in effluent turbidity will bring the team closer to fulfilling clean water needs in various countries including the US. In addition, the optimization of channel size, baffle number, and baffle size can reduce the use of unnecessary material. Additionally, alleviating the pressure build up observed in the experimental apparatus will allow for better experimental design and research.
 
 
 ## Literature Review and Previous Work
 
-ROSWELL 123
+The product of velocity gradient, G, and residence time has been used as a parameter for designing flocculators for many decades.  The product of these two terms, is often referred to as the collision potential. Various other parameters have been shown to affect flocculation since then, including coagulant dose, volume fraction and attachment effciency, O'Melia (1972); Kawamura (1991). The High G Flocculation team has attempted to isolate the velocity gradient and residence time as variables affecting flocculation while controlling for all other variables.  Based on recommendations from Monroe Weber-Shirk, the collision potential is maintained constant at around 20000, since an increase in G corresponded with a reduction in residence time.
 
-*Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)*
+It  is  unclear  whether  floc  formation  in  a  hydraulic flocculator  is dominated  by  inertial  forces,  ie.turbulence,  or viscous shear (Pennock et al., 2016).  The experimental setup designed by the High G Flocculation  team  only  produces
+flow  with  Reynolds  numbers  (Re)  less  than  2000,  meaning  that  the effect of turbulence is not observed in these experiments.  The team could thus isolate the effect of G, i.e.  viscous shear on the process of flocculation.
+
+Theoretically, it is unclear how changing G might affect the performance of the flocculator in terms of effluent turbidity.  It is necessary that flocs be large enough to be captured during the sedimentation process. However, there is evidence that small flocs do not combine with big flocs, although the exact mechanism for this is not clear (Swetland et al., 2014).  Research has shown that to an extent, a high G value will produce flocs that are smaller and more dense (Carissimi et al., 2007),allowing them to combine more effectively with other flocs.
 
 Last semester, the High G team measured the pressure increase through the flocculator of one trial at 300 Hz and 1.4 mg/L coagulant.
 
 ![PressureDiffFall](https://lh3.googleusercontent.com/jwL4Ie4dEJRwinZ8Ra5fH19Oh3LU96HfDxKeQaJgdw6c-oo9tug3KTeaW5yRvmYDGQZsnpZjN4awtnSPXxvIpqq5s_RD5G-sDRfjLXeYNgtCMXaVerP1MPDI75HBEdND_dXLIadgC7qJoaj9OzIamMFSMMctlAGHcAPJFPnrVaxDOlxYVXlGc8yUOAtvKkiVY-qeBSx5UiDguqQ8TUL_lHi2fEKtRVzUDrEp4qFvQ5kC_Xy3hKx5MsZhwNYmifK-I_ADIQ8lvo5sW_p4AOmnGtPjTavqBSSP6dCHWLZfsivNUsDc9vp3twb1Y5AYqFeXVYtL74PD5ZC218BuwHh-EQBshJj6MGTwY65z6fvF9Tuq91aj7_JdKQq4epose-4ug27mc_RZcMln2wCITVOWmhSnRoQGYYqaXDWuQ4nixmPqkqlJRjOildJ_PFajAcu7RxD7PmBBGMlHvjc030PNiPNEz5FncBsiRT6uZc8N_OaUA-63ZvjH7sTyVCumKh3jR-ityA95S2EDgV2LKX_BoHh3g0Ziy26vHroV0cM2moM_BqPHnZIuywogA72EhTVNbNpFaGPO4uDK1VGr1RUi1uygc17Zb51uoxUm06c=w917-h580-no)
+**Figure 1: Graph of Pressure Difference vs. Time from Fall 2017**
 
-The pressure throughout the flocculator increased about 12 cm in 10 hours. The change in effluent turbidity throughout did not change. Prior research from the High Rate Sedimentation research team has indicated that at higher upflow velocity in the sedimentation tank, the floc blanket will decay and the effluent turbidity increases throughout a similar experimental trial, likely from the increase in pressure in the flocculator.
+The pressure throughout the flocculator increased about 12 cm in 10 hours. The change in effluent turbidity throughout did not change. Prior research from the High Rate Sedimentation team (Galantino, Zarecor, Gonzalez. 2017)  has indicated that at higher upflow velocity in the sedimentation tank, the floc blanket will decay and the effluent turbidity increases throughout a similar experimental trial, likely from the gradual increase in pressure in the flocculator.
 
 ![SedTankDecay](https://www.overleaf.com/docs/11173977ftrfnxyhrpyv/atts/67486838)
+**Figure 2: Graph of Effluent Turbidity vs. Time from Fall 2017**
 
-The above graph shows a decrease in removal efficiency with time in the High Rate Sedimentation team's experiment at 3 mm/s upflow velocity in the sedimentation tank.  The higher upflow velocity shows a more pronounced difference in removal efficiency compared to High G Flocculation's Fall 2017 experiment where removal efficiency did not decline with time using a sedimentation tank upflow velocity for 2 mm/s.
+The above graph shows a decrease in removal efficiency with time in the High Rate Sedimentation team's experiment at 3 mm/s upflow velocity in the sedimentation tank.  The higher upflow velocity shows a more pronounced difference in removal efficiency compared to High G Flocculation's Fall 2017 experiment where removal efficiency did not decline with time using a sedimentation tank upflow velocity of 2 mm/s.
 
-The High G Flocculation team hypothesizes that coagulant buildup in the flocculator is the main contributor towards the observed increase in pressure different throughout the flocculator.
-
-
+The High G Flocculation team hypothesizes that coagulant buildup in the flocculator is the main contributor towards the observed increase in pressure different throughout the flocculator and is currently researching methods to mitigate that pressure increase.
 
 # Methods
 
@@ -40,9 +46,9 @@ The High G Flocculation team hypothesizes that coagulant buildup in the floccula
 This section will briefly describe key components of the team's experimental apparatus and explain their purpose. A more detailed description of the governing design calculations, ProCoDA variables and set points, and experimental setup can be found in the Manual available at the end of this report.
 ###The High G Setup
 ![ExperimentalApparatus](https://github.com/AguaClara/high_g_flocculation/blob/master/ExperimentalApparatus.PNG?raw=true)
-**Figure 1: High G Experimental Apparatus**
+**Figure 3: High G Experimental Apparatus**
 
-As shown in Figure 1 above, the overall experimental setup consists of a flocculator, clay and coagulant reservoirs, tube settler, and five distinct pumps. For this semester, two different flocculator tubing were used: hydrophobic and regular tubing. Regular tubing is depicted in Figure 1 above. Tabulated below is a summary of the experimental materials and their respective functions.
+As shown in Figure 3 above, the overall experimental setup consists of a flocculator, clay and coagulant reservoirs, tube settler, and five distinct pumps. For this semester, two different flocculator tubing were used: hydrophobic and regular tubing. Regular tubing is depicted in Figure 1 above. Tabulated below is a summary of the experimental materials and their respective functions.
 
 ![ApparatusMaterials](https://github.com/MehrinSelimgir/Personal_MS/blob/master/EquipmentFunctions.PNG?raw=true)
 
@@ -51,12 +57,10 @@ Flocculator design parameters were determined through Python calculations(detail
 
 ![Flocparameter](https://github.com/MehrinSelimgir/Personal_MS/blob/master/FlocculatorParameters.PNG?raw=true)
 
-
-
-A pressure sensor, circled in red in Figure 2 below, is incorporated into our experimental setup (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail.
+A pressure sensor, circled in red in Figure 4 below, is incorporated into our experimental setup (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail.
 
 ![pressuresensor](https://github.com/MehrinSelimgir/Personal_MS/blob/master/pressuresensor.PNG?raw=true)
-**Figure 2: Close-up of the Pressure Sensor**
+**Figure 4: Close-up of the Pressure Sensor**
 
 Additionally, a pressure attenuator (denoted in Figure 1) is incorporated into our setup (located between the water pump and influent turbidimeter), to mitigate the large pressure release to the flocculator from each perstaltic water pump rotation.
 
@@ -78,75 +82,95 @@ flow velocity through the sedimentation tube. The sedimentation tube is an appar
 7. The waste pump acts to ensure that settled flocs in the tube settler exit the system without clogging the tubes.
 8. The effluent pump ensures that the upflow velocity within the tube settler is kept at 2 mm/s, as recommended by the High Rate Sedimentation subteam.
 
-Figure 4, below, is a general process flow diagram of High G Flocculation experimental procedure.
+Figure 5, below, is a general process flow diagram of High G Flocculation experimental procedure.
 
 ![ProcessFlowDiagram](https://github.com/MehrinSelimgir/Personal_MS/blob/master/ProcessFlowDiagram.PNG?raw=true)
-**Figure 4: High G Flocculation Process Flow Diagram**
+**Figure 5: High G Flocculation Process Flow Diagram**
 
 
 ## Results and Analysis
 
-When conducting the experiment comparing the headloss in identical experiments with solely changing the tubing from regular tubing to hydrophobic tubing we achieved the following results.
+When conducting the experiment comparing the headloss in identical experiments with solely changing the tubing from regular (non-hydrophobic) tubing to hydrophobic tubing, the trial yield achieved the following results (Figure 6 & 7).
 
-![nonhydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20Regular%20tubing.PNG?raw=true) ![hydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20hydrophobic%20tubing.PNG?raw=true)
+![nonhydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20Regular%20tubing.PNG?raw=true)
+**Figure 6: Graph of Headloss vs. Time for Regular Tubing**
 
-From these results we were able to see and insignificant result. In both experiments, the trial started at around 70cm and after 10 hours reached 120cm at a constant rate. This showed that the hydrophobic tubing was inefftive at minimizing headloss due to the coagulant. Hence we begun to test what exactly was causing the pressure build-up, hence we began testing individual components. We first tested just water to ensure this effect is not a mere natural thing caused by water in our system. Hence we ran a trial by running just water through the pipe.
+ ![hydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20hydrophobic%20tubing.PNG?raw=true)
+ **Figure 7: Graph of Headloss vs. Time for Hydrophobic Tubing**
+
+The results showed an insignificant difference in headloss reduction. In both experiments, the trial started at around 70cm and after 10 hours reached 120cm at a constant rate. This showed that the hydrophobic tubing was ineffective at minimizing headloss due to the coagulant.
+
+In order to determine the cause of pressure build-up, trials were conducted testing individual components. First, the team tested just water to ensure that the pressure did not increase naturally throughout the length of the experiment. The results of the trial are illustrated in Figure 8 below.
 
 ![just water](https://github.com/AguaClara/high_g_flocculation/blob/master/water%20only.PNG?raw=true)
+**Figure 8: Graph of Headloss vs. Time, Regular Tubing, Just Water Trial**
 
-This experiment eliminated the possibility that the pressure build up was caused simply due to the actual set up of this experiment. This was what we hypothesized as whenever we started a new trial, we were able to start at the same pressure everytime. However, we were unable to predict the minute drop in pressure, however, this could attributed to changes in viscosity due to temperature changes throughout the day. We then began testing water with coagulant.
+This experiment eliminated the possibility that the pressure build up was caused simply due to the actual set up of this experiment. This was consistent with the hypothesis, and the observation that whenever a new trial was ran, the pressure difference started at the same value every time. However, the team did see a small increase in pressure. This minor change in pressure could perhaps be attributed to changes in viscosity due to temperature changes throughout the day, but does not explain the majority of the increase in pressure. For the following experimental trials, the team wanted to observe how headloss behaved when adding coagulant into the system.
 
 ![water+coagulant,regtub](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing.PNG?raw=true)
+**Figure 9: Graph of Headloss vs. Time, Regular Tubing, Water & Coagulant Trial**
 
-Due to some an overnight issue, we were solely able to obtain 3 hours of valuable data for this trial. This experiment surprised us as it was not what we hypothesized.We believed it was the combination of both the coagulant along with the clay that was causing the headloss. Instead, this data shows that the coagulant alone causes the pressure increase. In fact, the pressure increase was even more significant. Within 3 hours, the pressure was able to rise from 70cm to 95cm, which is half the change when run with clay in a third of the time. This experiment was conducted with regular tubing, and hence, to ensure the hydrophobic tubing makes an insignificant difference in headloss, we ran an experiment with hydrophobic tubing too.
+Due to the computer restarting overnight, ProCoDA only recorded 3 hours of data for this trial. Nonetheless, the results were unexpected compared to what was hypothesized. The team's initial belief was that the combination of the coagulant with the clay was the primary cause of the headloss. Instead, this data (Figure 9) shows that the coagulant alone caused a significant pressure increase. In fact, the pressure increase was even more significant. Within 3 hours, the pressure was able to rise from 70cm to 95cm, which is half the change when run with clay in a third of the time. To ensure the hydrophobic tubing makes an insignificant difference in headloss, the same experiment was ran again with hydrophobic tubing.
 
 ![water+coagulant,hydtub](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Hydrophobic%20Tubing.PNG?raw=true)
+**Figure 10: Graph of Headloss vs. Time, Hydrophobic Tubing, Water & Coagulant Trial**
 
-Looking at the data, we can see a continuous build-up of pressure. To fairly compare the results from the hydrophobic test and the regular tubing, we looked at the graphs for the first three hours of both experiments due to only having 3-hour long trial for regular tubing. The axes have been matched the axes to visually compare notice the difference between the two. From the experiment, the headloss with the change with hydrophobic tubing was almost half the change with regular tubing (15cm versus 25cm).
+Figure 10 depicts a continuous build-up of pressure. Comparing only the first 3 hours, there is a noticeable difference between the two (Figures 11 & 12). The headloss increase with hydrophobic tubing was almost half the change with regular tubing (15cm versus 25cm).
 
-![water+coagulant,regtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing.PNG?raw=true) ![water+coagulant,hydtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Hydrophobic%20Tubing(3).PNG?raw=true)
+![water+coagulant,regtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing.PNG?raw=true)
+**Figure 11: Graph of Headloss vs. Time, Regular Tubing, Water & Coagulant, 3-Hr Trial**
 
-Additionally, another very interesting observation from this trial is the sudden drop in pressure around the 12th hour- this is when the coagulant ran out. This potentially proves that running water for a short amount of time without coagulant can actually clear out the coagulant. A more focused graph at the 12th hour shows we were able to lose almost all of the built up pressure within 2 minutes. Hence,  ramping up water flow to 4x that of the trial could mean removing all of the built-up pressure in 30 seconds.(note: the x-axis has been changed to minutes to get a more precise and understandable reading). This loss in pressure could be due to the pumping in of air bubbles as the coagulant pump continued to run, however this will be our future tests.
+ ![water+coagulant,hydtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Hydrophobic%20Tubing(3).PNG?raw=true)
+ **Figure 12: Graph of Headloss vs. Time, Hydrophobic Tubing, Water & Coagulant, 3-Hr Trial**
+
+Another observation from this trial is the sudden drop in pressure around the hour 12 (Figure 10)- when the coagulant ran out. This potentially proves that running water for a short amount of time without coagulant can clear out the coagulant. A more focused graph at the 12th hour (Figure 13) shows a lost of almost all of the built up pressure within 2 minutes. This loss in pressure could be due to the pumping in of air bubbles as the coagulant pump continued to run. The team aims to analyze this further through future experimental trials.  
 
 ![pressuredrop](https://github.com/AguaClara/high_g_flocculation/blob/master/pressuredrop.PNG?raw=true)
+**Figure 13: Refined View of 12th-Hr Pressure Drop, Hydrophobic Tubing, Water & Coagulant Trial**
 
 ## Conclusions
-*Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
-
-Make sure that you defend your conclusions with facts and results.*
-
-From comparing trials using Hydrophobic and Non-Hydrophobic tubing, there was no noticeable difference in pressure increase. Hydrophobic tubing is not effective in our experiments in prevent pressure increase, so research teams will be advised to continue using Non-Hydrophobic tubing.
+From comparing trials using Hydrophobic and Non-Hydrophobic tubing, there was no noticeable difference in pressure increase. Hydrophobic tubing is not effective in our experiments in preventing pressure increase, so research teams will be advised to continue using Non-Hydrophobic tubing. Nonetheless, the High G Flocculation team aims to conduct further experiments using hydrophobic tubing has recent trials have indicated that hydrophobic tubing may be useful in mitigating pressure buildup. However, priority will be given to experimental trials using regular tubing. 
 
 By measuring the pressure increase in the flocculator in separate trials measuring only water, water and coagulant, and water, clay and coagulant, the team was able to isolate coagulant as the main contributor of pressure increase in the flocculator.  Future experiments will focused on reducing coagulant build up in the flocculator in order to lower the amount of pressure increase.
 
 
 ## Future Work
-*Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?*
+Although the initial experimental trials with hydrophobic tubing indicated that it was not a viable solution to pressure build-up, the recent experiments (with just water & coagulant) indicate that it may be insightful to conduct additional experiments with hydrophobic tubing.
+The specific experimental trials the team plans to conduct for the remainder of the semester are as follows:
+1. Evaluate whether headloss can be mitigated by running the water pump at full speed for a short time (approx.30 seconds).
+2. Determine an optimal G value by running trials at G values lower than 100 Hz.
+3. Conduct experiments to determine a relationship between coagulant dose and optimal G through varied coagulant dose trials.
+
 
 ## Bibliography
-*Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.*
+AWWA/ASCE (2012).Water Treatment Plant Design.*Water Treatment Plant Design*. McGraw Hill,New York, fifth edition.
+
+Carissimi, E., Miller, J., and Rubio, J.    (2007). Characterization of the high kinetic energy dissipation of the Flocs Generator Reactor (FGR) - ScienceDirect.
+
+Galantino, C. and Kang, A. (2017).  High Rate Sedimentation, Summer 2017 - Overleaf.
+
+Garland,  C.,  Weber-Shirk,  M.,  and  Lion,  L.  W.  (2017).   Revisiting  Hydraulic  Flocculator  Design  for Use  in  Water  Treatment  Systems  with  Fluidized  Floc  Beds. *Environmental  Engineering  Science*,34(2):122-129.
+
+Kawamura, S. (1991).*Integrated Design and Operation of Water Treatment Facilities*.  Second edition.
+
+O'Melia,  C.R.  (1972). Coagulation  and Flocculation: Physicochemical  Processes  for  Water  Quality Control,.
+
+Pennock,  W.  H.,  Chan, F.  C.,  Weber-Shirk,  M.  L., and  Lion,  L.  W.  (2016). Theoretical Foundation and  Test  Apparatus  for an  Agent-Based  Flocculation Model. *Environmental  Engineering  Science*,33(9):688{698.
+
+Swetland, K. A., Weber-Shirk, M. L., and Lion, L. W. (2014). Flocculation-Sedimentation Performance Model for Laminar-Flow Hydraulic Flocculation with Polyaluminum Chloride and Aluminum Sulfate Coagulants. *Journal of Environmental Engineering*, 140(3):04014002.
 
 # Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
 
 ## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+The majority of the High G Flocculation experimental apparatus consists of pre-manufactured equipment (pumps, stock tanks, turbidimeters, and pressure sensor). The sedimentation tube settler is fabricated by the High Rate Sedimentation subteam. The hydraulic flocculators are fabricated by the High G Flocculation team. The flocculators are assembled by wrapping the desired tubing (hydrophobic or regular) around a hollow, cylindrical piece of cardboard.  The flocculator is then mounted on to the experimental apparatus on adjustable metal hose clamps.
+
 
 ## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+As a possible solution to pressure build up, this semester the team invested in fabricating a hydraulic flocculator using hydrophobic tubing. The initial experimental trials indicate that hydrophobic tubing produced an insignificant mitigation to headloss. Figure 14, below, summarizes the general technical specifications, pricing, and vendor information for both hydrophobic and regular tubing.
 
-## Experimental Methods
-### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
+![FlocculatorTubing](https://github.com/MehrinSelimgir/Personal_MS/blob/master/FlocculatorTubing.png?raw=true)
+**Figure 14: Hydrophobic and Regular Tubing Information**
 
-### Experiment
-Step 1.
-
-### Cleaning Procedure
-Step 1.
 
 ## Experimental Checklist
 **(Including Pre-Experiment Cleaning)**
@@ -175,8 +199,29 @@ Here, you should describe the function of each state in your method file, both i
 \item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
 \end{itemize}
 
+
+
 ### Set Points
 Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
+
+
+
+| Set Point | Setting     |
+| :------------- | :------------- |
+| Turb Target      | 100       |
+| P  |  68 |
+| i    | 125  |
+| D   | 0  |
+| Influent Turbidty ID  | 1  |
+| Effluent Turbidity ID | 2  |
+
+The table above shows the set points used in ProCoda to control the clay pump. The values of P, i, D were calibrated using this guide https://confluence.cornell.edu/display/AGUACLARA/Calibrating+PID+Control. The Turb Target is set at 100 NTU for all experiments.
+
+All other pumps were controlled manually. The pump before the flocculator has been set at 170 rpm for a G value of 113 Hz, and the pump after the sedimentation tank has been set at 60 rpm to maintain a 2 mm/s upflow velocity through the sedimentation tank.
+
+
+
+
 
 ## Python Code
 Calculations were done in Python to determine PaCl coagulant dosing parameters and flocculator design parameters in order to run experiments and construct experimental apparatus.
