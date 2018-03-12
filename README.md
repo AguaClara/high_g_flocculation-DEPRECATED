@@ -22,6 +22,6 @@ Symposium PPT (PDF)
 https://github.com/AguaClara/high_g_flocculation/blob/master/High%20G%20Floc%20Symposium%20Presentation_Spring%202018.pdf
 
 Symposium PPT
-
+https://github.com/AguaClara/high_g_flocculation/blob/master/High%20G%20Floc%20Symposium%20Presentation_Spring%202018.pptx
 
 
