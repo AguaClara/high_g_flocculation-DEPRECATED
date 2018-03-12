@@ -17,4 +17,6 @@ Kanha Matai (km694@cornell.edu) 484-560-9003
 # Links to Reports 
 
 # Links to Presentations 
+https://github.com/AguaClara/high_g_flocculation/blob/master/High%20G%20Floc%20Symposium%20Presentation%20Spring%202018.pdf
+
 
