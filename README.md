@@ -5,6 +5,8 @@ Overarching Goal: Optimizing Flocculation!! :O
 2. Evaluate whether headloss can be mitigated by running pump at full speed for a short time (approx.30 seconds). 
 3. Determine an optimal G value.
 4. Conduct experiments to determine a relationship between coagulant dose and optimal G. 
+5. Determine the lowest possible shear value that can knock off coagulant in the flocculator tubing. 
+
 
 
 
