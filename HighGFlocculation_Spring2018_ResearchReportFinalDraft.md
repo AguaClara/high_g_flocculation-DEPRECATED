@@ -7,7 +7,7 @@ Please do not remove any of my comments, just address them in the text and then 
 </div>
 
 ## Abstract
-The "High G flocculation team (High G Team)" seeks to understand and mitigate the increase of pressure (also known as headloss) throughout experimental flocculators. First, The High G team found that a buildup of coagulant- and not clay, is causing the pressure buildup in the flocculator for particle removal teams. This pressure buildup may be affecting the removal efficiency of the flocculator as particle removal experiments progress. The High G team determined that using hydrophobic tubing is not an effective means of reducing pressure buildup. Through various experiments the team found that pressure increase can be mitigated through a sudden, short increases in pump speed. We are currently working on solutions to mitigate pressure increase using the least amount of disruption as possible- looking for a minimum possible flow increase to still prevent increasing pressure.
+The High G flocculation team (High G Team) seeks to understand and mitigate the increase of pressure (also known as headloss) throughout experimental flocculators. First, The High G team found that a buildup of coagulant- and not clay, is causing the pressure buildup in the flocculator for particle removal teams. This pressure buildup may be affecting the removal efficiency of the flocculator as particle removal experiments progress. The High G team determined that using hydrophobic tubing is not an effective mean of reducing pressure buildup. Through various experiments the team found that pressure increase can be mitigated through creating a high shear force in the flocculator  through sudden, short increases in water flow. We have determined a value which is the lowest amount of shear force necessary to mitigate pressure.
 
 <div class="alert alert-block alert-danger">
 Remove quotes from "High G Flocculation team (High G team)"
@@ -18,17 +18,21 @@ Revise last sentence
 <!--- We shifted our project to focus entirely on understanding/mitigating the pressure increase in a flocculator --->
 
 ## Introduction
-Flocculation is a critical component of  the water treatment process in which particles, which have had their charges neutralized through coagulation, are prompted to collide and aggregate with other particles to form flocs. Flocs above a critical size will settle out due to gravity during sedimentation. Viscous shear in the flocculator drives collisions and the formation of these flocs. For the High G Team's specific experimental setup, flocs are solely composed of clay particles and coagulant. Polyaluminum Chloride (PaCl) is used as our coagulant due to price and availability.   A fraction of the surface of the clay particles is covered in coagulant and when these particles are prompted to collide, a successful collision occurs due to electrostatic attraction: the positively charged coagulant particle neutralizes the negatively charged clay particle. The purpose of the flocculator is to subject particles to enough viscous shear to form particles large enough to settle.
+Flocculation is a critical component of  the water treatment process in which particles, which have had their charges neutralized through coagulation, are prompted to collide and aggregate with other particles to form flocs. Flocs above a critical size will settle out due to gravity during sedimentation. Viscous shear in the flocculator drives collisions and the formation of these flocs. For the High G Team's specific experimental setup, flocs are solely composed of clay particles and coagulant. Polyaluminum Chloride (PACl) is used as our coagulant due to price and availability.  A fraction of the surface of the clay particles is covered in coagulant and when these particles are prompted to collide, a successful collision occurs due to electrostatic attraction: the positively charged coagulant particle neutralizes the negatively charged clay particle. The purpose of the flocculator is to subject particles to enough viscous shear to form particles large enough to settle.
 
-Last semester, High G Flocculation worked on experimentally determining the ideal Shear (G) value for flocculator performance by varying G through the flocculator . During these experiments,  the team found that pressure difference through the flocculator increased throughout each trial, while removal efficiency slightly decreased (effluent turbidity slightly increased). The High G team hypothesized that both the pressure increase and the decline in removal efficiency are due to PACl sticking on the walls of the flocculator. This semester the High G team seeks to understand and mitigate the effect of PACl sticking to the walls.
+Last semester, High G Flocculation worked on experimentally determining the ideal shear (G) value for flocculator performance by varying G through the flocculator . During these experiments,  the team found that pressure difference through the flocculator increased throughout every trial, while removal efficiency slightly decreased (effluent turbidity slightly increased). The High G team hypothesized that both the pressure increase and the decline in removal efficiency are due to PACl sticking on the walls of the flocculator, allowing less PACl to stick to clay particles. This semester the High G team seeks to understand and mitigate the effect of PACl sticking to the walls.
 
- Alleviating the pressure build up observed in the experimental apparatus will allow for better experimental design and research for all particle removal teams.
+ In a full scale water treatment plant, the flocculator is large enough that coagulant on the flocculator walls would not affect particle removal, however, alleviating the pressure build up observed in the experimental apparatus will allow for better experimental design and research for all particle removal teams.
+
+Our team sought to alleviate the pressure buildup through various methods such as using hydrophobic tubing, using a syringe to increase water flow, and adjusting pump settings to increase water flow.
 
 <!--- Took a lot more out about G values, baffles, etc. Again, focus is on reducing pressure buildup   --->
 
 
 <div class="alert alert-block alert-danger">
-Could your research have any direct effect o flocculator design in full size plants?
+Could your research have any direct effect om flocculator design in full size plants?
+//answered
+
 
 Consider putting a little in about how you will alleviate pressure. Tried tubing changes (didn't work) and thn the syringe idea
 </div>
@@ -63,13 +67,17 @@ Last semester, while testing effluent turbidities at different shear values, the
 ![PressureDiffFall](https://lh3.googleusercontent.com/jwL4Ie4dEJRwinZ8Ra5fH19Oh3LU96HfDxKeQaJgdw6c-oo9tug3KTeaW5yRvmYDGQZsnpZjN4awtnSPXxvIpqq5s_RD5G-sDRfjLXeYNgtCMXaVerP1MPDI75HBEdND_dXLIadgC7qJoaj9OzIamMFSMMctlAGHcAPJFPnrVaxDOlxYVXlGc8yUOAtvKkiVY-qeBSx5UiDguqQ8TUL_lHi2fEKtRVzUDrEp4qFvQ5kC_Xy3hKx5MsZhwNYmifK-I_ADIQ8lvo5sW_p4AOmnGtPjTavqBSSP6dCHWLZfsivNUsDc9vp3twb1Y5AYqFeXVYtL74PD5ZC218BuwHh-EQBshJj6MGTwY65z6fvF9Tuq91aj7_JdKQq4epose-4ug27mc_RZcMln2wCITVOWmhSnRoQGYYqaXDWuQ4nixmPqkqlJRjOildJ_PFajAcu7RxD7PmBBGMlHvjc030PNiPNEz5FncBsiRT6uZc8N_OaUA-63ZvjH7sTyVCumKh3jR-ityA95S2EDgV2LKX_BoHh3g0Ziy26vHroV0cM2moM_BqPHnZIuywogA72EhTVNbNpFaGPO4uDK1VGr1RUi1uygc17Zb51uoxUm06c=w917-h580-no)
 **Figure 1: Graph of Pressure Difference vs. Time from Fall 2017**
 
-The pressure throughout the flocculator increased about 12 cm in 10 hours. The team hypothesized that the pressure increase may contribute to the rise in effluent turbidity throughout the experiments testing for optimal G values seen in graph below.
+The pressure throughout the flocculator increased about 12 cm in 10 hours. The Fall 2017 team hypothesized that the pressure increase may have been contributing to the rise in effluent turbidity in all experiments looking to maximize particle removal efficiency.
 
 <div class="alert alert-block alert-danger">
 When you refer to "the team" in lit review/previous work, try to specify which team i.e. the Fall 2017 team or the current team etc.
 
 I am not sure what the second sentence means. So were you already looking for optimal G before this semester and the pressure build-up was a side note? Or are you now looking for aan optimal G to reduce the pressure through a different set of experiments.
+
+//Pressure buildup was a side note for past team, but a focus for current team.  But yes we will also find the minimum possible shear to prevent pressure increase from PACl buildup on flocculator walls.
+
 </div>
+
 
 ![EffluentTurbiditiesVShear](https://raw.githubusercontent.com/AguaClara/high_g_flocculation/master/Effluent%20Graph%20Zoomed%20in.PNG)
 **Figure 2: Graph of Effluent Turbidity at Different Shear Forces**
@@ -82,6 +90,8 @@ The High G team hypothesized that coagulant buildup in the flocculator is the ma
 Revise for spelling/grammar
 
 This section is now really light without any outside references.
+
+// will put old research from HRS back in.
 </div>
 
 <!--- Took out graphs from HRS and put in old High G graphs that are similar.
@@ -337,7 +347,7 @@ These results are exciting!!
 ## Conclusions
 From comparing trials using Hydrophobic and Non-Hydrophobic tubing, we saw that hydrophobic tubing is not effective in preventing pressure increase, so research teams have been advised to continue using Non-Hydrophobic tubing.
 
-By measuring the pressure increase in the flocculator in separate experiments with only water, experiments with water and coagulant, and experiments with water, clay and coagulant, the team was able to isolate coagulant as the main contributor of pressure increase in the flocculator.  We believe a portion of the coagulant being dosed into the solution is being lost in the buildup on the flocculator walls. In the work of prior particle removal teams, we see that where we see increase headloss, we see a decline in the performance of our treatment process likely from coagulant being lost to the flocculator walls instead of interacting with clay.
+By measuring the pressure increase in the flocculator in separate experiments with only water, experiments with water and coagulant, and experiments with water, clay and coagulant, the team was able to isolate coagulant as the main contributor of pressure increase in the flocculator.  We believe a portion of the coagulant being dosed into the solution is being lost in the buildup on the flocculator walls.
 
 <div class="alert alert-block alert-danger">
 Are you taking turbidity readings because I didn't see any in the results section. If you mention a decline in performance, there should be a mention of it in results/analysis
@@ -345,14 +355,16 @@ Are you taking turbidity readings because I didn't see any in the results sectio
 
 Through our experiments, we have found a method to automate the removal of coagulant build-up through bursts of high-speed water through the flocculator.
 
-In finding a way to mitigate pressure, we think we will provide particle removal teams to maintain performance of particle remove throughout longer experiments.
+While our prior hypothesis stated that a decline in the performance of our treatment process was likely from coagulant being lost to the flocculator walls instead of interacting with clay, the current High Rate Sedimentation team has found that the PACl buildup is not a factor in declining removal efficiency. For our experiment that means that mitigating an increase in headloss will not necessarily lead to negating a decline in removal efficiency, but removals teams will have more consistent long term experiments by not having to take into account a pressure increase throughout the flocculator.
+
 
 ## Future Work
 
-The specific experimental trials the team plans to conduct for the remainder of the semester are as follows:
+Possible future experiment for future teams include:
 
-1. Determine the lowest fluid shear value needed to completely knock off coagulant from the flocculator tubing.
-2. Develop a mathematical model to describe the number of coagulant particles stuck to the flocculator tubing.
+1. Testing different flocculator tubing sizes-  is an optimal G value for flocculation consistent with all flocculator sizes
+2. Working with HRS to find the reason for floc blanket decay and declining removal efficiency as their experiments progress.
+3. Measuring the amount of coagulant that sticks to flocculator walls, and determining the physical method by which causes pressure increase in the flocculator. 
 
 ## Bibliography
 AWWA/ASCE (2012).Water Treatment Plant Design.*Water Treatment Plant Design*. McGraw Hill,New York, fifth edition.
