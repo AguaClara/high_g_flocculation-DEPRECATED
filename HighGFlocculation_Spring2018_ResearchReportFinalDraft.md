@@ -289,6 +289,8 @@ The chart above shows that experiments ran with clay had lower pressure increase
 
 Also comparing hydrophobic and regular tubing experiments, we observed that the hydrophobic tubing experiments had higher pressure increases. Since we did not observe a significant benefit in using hydrophobic tubing (contrarily, we saw higher pressure increases) we determined that hydrophobic tubing was ineffective in mitigating pressure increase and continued our following experiments with regular tubing.
 
+#### Tanvi: Lots of first-person words in this section, please replace!
+
 After seeing that the headloss in the flocculator dropped significantly once the coagulant ran out, the next step we tested whether this same result can be mimicked by pushing water through the flocculator at a more rapid speed to 'knock off' the coagulant build up. We first tried to see if we could use a 100ml syringe to push water through the system. The minimum time of emptying the syringe attained was 3.5 seconds, resulting in a very short but high shear push through the flocculator. Below is a screenshot of the ProCoDa readings of the filling and ejecting of water.
 
 <div class="alert alert-block alert-danger">
@@ -300,11 +302,19 @@ The content in this section overall is good, but it is not easy to read because 
 
 <!--For final project- insert ProCoDa reading of syringe press after pressure has been built up  --->
 
-From this image, it can be seen that as the syringe is being filled, the pressure drops below zero as flow is now in the opposite direction (the syringe is being filled before the flocculator so water from the pump is being pushed into the syringe and water from the flocculator is being drawn backwards into the syringe). Once filled, the pressure readings began to normalize. When ejecting the water from the syringe to the original, a substantial pressure difference was caused, reaching 500 cm of pressure. After reaching the peak pressure, the headloss through the flocculator slowly begins to stabilize back to its original headloss of 100cm.
+From this image, it can be seen that as the syringe is being filled, the pressure drops below zero as flow is now in the opposite direction (the syringe is being filled before the flocculator so water from the pump is being pushed into the syringe and water from the flocculator is being drawn backwards into the syringe). 
+#### Tanvi: Your sentence in parenthesis is pretty key and should maybe not be in parentheses at all. Maybe 'since the syringe is being filled...'. 
+Once filled, the pressure readings began to normalize. When ejecting the water from the syringe to the original, 
+#### Tanvi: Maybe replace 'original' with flocculator
+a substantial pressure difference was caused, reaching 500 cm of pressure. 
+### Tanvi: instead of pressure 'difference', state the direction (increase/decrease). Also since you are saying the word 'pressure many times in this section, you coul throw in the word 'head' or 'headloss' more frequently
+After reaching the peak pressure, the headloss through the flocculator slowly begins to stabilize back to its original headloss of 100cm.
+#### Tanvi: This part is very important, so many sure you emphasise what you mean by original headloss (prior to buildup)
 
 <!--This is somewhat hard to explain, we may take a video of this for our final presentation. Maybe we will anotate the drawing --->
 
-The set up enabled the High G team to test whether high flow water would be capable of knocking off all of the built up coagulant. To accomplish this, we ran an experiment with water and coagulant for 2 days to build up a substantial pressure difference in the flocculator. Then, the syringe was used in attempt to clear the tubing.
+The set up enabled the High G team to test whether high flow water would be capable of knocking off all of the built up coagulant.
+To accomplish this, we ran an experiment with water and coagulant for 2 days to build up a substantial pressure difference in the flocculator. Then, the syringe was used in attempt to clear the tubing.
 
 ![syringe-test](https://github.com/AguaClara/high_g_flocculation/blob/master/initial%20syring%20test.png?raw=true)
 
@@ -315,6 +325,7 @@ Where do you reference and explain Figure 16?
 </div>
 
 From this experiment, we see that pushing water through the flocculator at a high speed is indeed capable of clearing out the PACl responsible for increasing the pressure in the flocculator tubing. The pressure drop while filling the syringe and the pressure increase when ejecting the water has been neglected in the image in order to focus on the effect of the burst of water. The high sheer from the increased flow was successful in clearing the built up coagulant and dropping the pressure form 160cm to 80cm.
+#### Tanvi: 'from 160cm to 80cm (itty bitty typo)
 
 <div class="alert alert-block alert-danger">
 What was the original pressure?
@@ -334,7 +345,9 @@ As our experiments ran at a normal flow rate of 190 ml/min, the first high speed
 Figure text is really small. Figure titles are inconsistent throughout report.
 </div>
 
-From this graph, we see that this experiment was unsuccessful in mitigating pressure. However, from the data it can be seen that the bursts made an insignificant pressure increase - only an increase of about 30 cm- compared to around 400 cm for the syringe experiment. While visually observing the experiment, we saw that much the excess flow was accumulating in the flow accumulator and not actually passing into the flocculator. The next experiment was ran with a 10 second burst of increased flow (up from 2 seconds) and this flow rate produced roughly 300cm of pressure difference. Unsure if this was enough, the team decided to start from the highest value possible and move down. The next experiment was set to send bursts at at 50% maximum capacity (1120ml/min) for 10 second burst every hour.
+From this graph, we see that this experiment was unsuccessful in mitigating pressure. However, from the data it can be seen that the bursts made an insignificant pressure increase - only an increase of about 30 cm- compared to around 400 cm for the syringe experiment. While visually observing the experiment, we saw that much the 
+#### Tanvi: 'much of' 
+excess flow was accumulating in the flow accumulator and not actually passing into the flocculator. The next experiment was ran with a 10 second burst of increased flow (up from 2 seconds) and this flow rate produced roughly 300cm of pressure difference. Unsure if this was enough, the team decided to start from the highest value possible and move down. The next experiment was set to send bursts at at 50% maximum capacity (1120ml/min) for 10 second burst every hour.
 
 <div class="alert alert-block alert-danger">
 When referring to graphs, reference them by their number
@@ -349,7 +362,7 @@ Revise for grammar
 <!--- We need to change the unit on the x-axis to hours --->
 
 From this graph, we saw that the bursts of flow was sufficient to prevent the build up of coagulant. Our goal is to find the lowest possible increase of flow needed to still successfully deter pressure increase. The next experiment was set up to send 10 second burst of water at 40% of the maximum capacity (880ml/min) every hour.
-
+#### Tanvi: Great content but again lots of first person 
 
 ![0.4-10sec](https://github.com/AguaClara/high_g_flocculation/blob/master/880-10sec.PNG?raw=true)
 
