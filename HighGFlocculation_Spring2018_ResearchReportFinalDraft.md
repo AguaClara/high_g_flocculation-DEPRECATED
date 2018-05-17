@@ -1,21 +1,9 @@
 # High G Flocculation, Spring 2018
 #### Mehrin Selimgir, Roswell Lo, Kanha Matai
-#### April 20, 2018
-
-<div class="alert alert-block alert-danger">
-Please do not remove any of my comments, just address them in the text and then I will check them and delete next time. If you disagree with a comment just write your own underneath it.
-</div>
+#### May 18, 2018
 
 ## Abstract
 The High G flocculation team (High G Team) seeks to understand and mitigate the increase of pressure (also known as headloss) throughout experimental flocculators. First, The High G team found that a buildup of coagulant- and not clay, is causing the pressure buildup in the flocculator for particle removal teams. This pressure buildup may be affecting the removal efficiency of the flocculator as particle removal experiments progress. The High G team determined that using hydrophobic tubing is not an effective mean of reducing pressure buildup. Through various experiments the team found that pressure increase can be mitigated through creating a high shear force in the flocculator  through sudden, short increases in water flow. We have determined a value which is the lowest amount of shear force necessary to mitigate pressure.
-
-<div class="alert alert-block alert-danger">
-Remove quotes from "High G Flocculation team (High G team)"
-
-Revise last sentence
-</div>
-
-<!--- We shifted our project to focus entirely on understanding/mitigating the pressure increase in a flocculator --->
 
 ## Introduction
 Flocculation is a critical component of  the water treatment process in which particles, which have had their charges neutralized through coagulation, are prompted to collide and aggregate with other particles to form flocs. Flocs above a critical size will settle out due to gravity during sedimentation. Viscous shear in the flocculator drives collisions and the formation of these flocs. For the High G Team's specific experimental setup, flocs are solely composed of clay particles and coagulant. Polyaluminum Chloride (PACl) is used as our coagulant due to price and availability.  A fraction of the surface of the clay particles is covered in coagulant and when these particles are prompted to collide, a successful collision occurs due to electrostatic attraction: the positively charged coagulant particle neutralizes the negatively charged clay particle. The purpose of the flocculator is to subject particles to enough viscous shear to form particles large enough to settle.
@@ -26,41 +14,7 @@ Last semester, High G Flocculation worked on experimentally determining the idea
 
 Our team sought to alleviate the pressure buildup through various methods such as using hydrophobic tubing, using a syringe to increase water flow, and adjusting pump settings to increase water flow.
 
-<!--- Took a lot more out about G values, baffles, etc. Again, focus is on reducing pressure buildup   --->
-
-
-<div class="alert alert-block alert-danger">
-Could your research have any direct effect om flocculator design in full size plants?
-//answered
-
-
-Consider putting a little in about how you will alleviate pressure. Tried tubing changes (didn't work) and thn the syringe idea
-</div>
-
 ## Literature Review and Previous Work
-<!---
-The product of velocity gradient, G, and residence time has been used as a parameter for designing flocculators for many decades.  The product of these two terms, is often referred to as the collision potential. Various other parameters have been shown to affect flocculation since then, including coagulant dose, volume fraction and attachment effciency, (O'Melia 1972); (Kawamura 1991). The High G Flocculation team has attempted to isolate the velocity gradient and residence time as variables affecting flocculation while controlling for all other variables.  Based on recommendations from Monroe Weber-Shirk, the collision potential is maintained constant at around 20000, since an increase in G corresponded with a reduction in residence time.
-
-<div class="alert alert-block alert-danger">
-Review formatting of in-text citations
-(Name Year)
-
-"Monroe Weber-Shirk, Director of AguaClara,"
-
-What is a hydraulic flocculator vs a flocculator (jargon?)
-</div>
-
-It  is  unclear  whether  floc  formation  in  a  hydraulic flocculator  is dominated  by  inertial  forces,  ie.turbulence,  or viscous shear (Pennock et al., 2016).  The experimental setup designed by the High G Flocculation  team  only  produces
-flow  with  Reynolds  numbers  (Re)  less  than  2000,  meaning  that  the effect of turbulence is not observed in these experiments.  The team could thus isolate the effect of G, i.e.  viscous shear on the process of flocculation.
-
-Theoretically, it is unclear how changing G might affect the performance of the flocculator in terms of effluent turbidity.  It is necessary that flocs be large enough to be captured during the sedimentation process. However, there is evidence that small flocs do not combine with big flocs, although the exact mechanism for this is not clear (Swetland et al., 2014).  Research has shown that to an extent, a high G value will produce flocs that are smaller and more dense (Carissimi et al., 2007),allowing them to combine more effectively with other flocs.
-
-<div class="alert alert-block alert-danger">
-Paragraph is a little confusing towards the end.
-
-"However, there is evidence that small flocs do not combine with big flocs, although the exact mechanism for this is not clear" - what is the mechanism?
-</div>
--->
 
 Last semester, while testing effluent turbidities at different shear values, the High G team measured the pressure increase through the flocculator as well. The following graph shows the pressure difference across the flocculator of one trial at G= 300 Hz and 1.4 mg/L coagulant.
 
@@ -68,16 +22,6 @@ Last semester, while testing effluent turbidities at different shear values, the
 **Figure 1: Graph of Pressure Difference vs. Time from Fall 2017**
 
 The pressure throughout the flocculator increased about 12 cm in 10 hours. The Fall 2017 team hypothesized that the pressure increase may have been contributing to the rise in effluent turbidity in all experiments looking to maximize particle removal efficiency.
-
-<div class="alert alert-block alert-danger">
-When you refer to "the team" in lit review/previous work, try to specify which team i.e. the Fall 2017 team or the current team etc.
-
-I am not sure what the second sentence means. So were you already looking for optimal G before this semester and the pressure build-up was a side note? Or are you now looking for aan optimal G to reduce the pressure through a different set of experiments.
-
-//Pressure buildup was a side note for past team, but a focus for current team.  But yes we will also find the minimum possible shear to prevent pressure increase from PACl buildup on flocculator walls.
-
-</div>
-
 
 ![EffluentTurbiditiesVShear](https://raw.githubusercontent.com/AguaClara/high_g_flocculation/master/Effluent%20Graph%20Zoomed%20in.PNG)
 **Figure 2: Graph of Effluent Turbidity at Different Shear Forces**
@@ -114,35 +58,17 @@ Flocculator design parameters were determined through Python calculations (detai
 
 ![Flocparameter](https://github.com/MehrinSelimgir/Personal_MS/blob/master/FlocculatorParameters.PNG?raw=true)
 
-<div class="alert alert-block alert-danger">
-So all of these values were assumed given other teams' expertise?
-</div>
-
 Additionally a syringe is incorporated into the High G experimental setup in order to inject a burst of water into the flocculator. The intention of the syringe is to test whether a high speed injection of water is capable of knocking off coagulant from the flocculator. Technical specifications for the syringe are detailed in the Manual section.  The results of this are detailed in the Results and Analysis section below.
 
-A pressure sensor, circled in red in Figure 4 below, is incorporated into our experimental setup (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail.
-
-<div class="alert alert-block alert-danger">
-Is that really what the pressure sensor is doing? I thought it was supposed to be a proxy of pressure increase across the flocculator?
-</div>
+A pressure sensor, circled in red in Figure 4 below, is incorporated into our experimental setup (located at the inlet and outlet of the flocculator) to assess whether the water and flocculator pumps are maintaining constant pressure during each trail by measuring the pressure difference between water entering and leaving the flocculator.
 
 ![pressuresensor](https://github.com/MehrinSelimgir/Personal_MS/blob/master/pressuresensor.PNG?raw=true)
 **Figure 4: Close-up of the Pressure Sensor**
 
-Additionally, a pressure attenuator (denoted in Figure 1) is incorporated into the High G setup (located between the water pump and influent turbidimeter). It was noted by the High Rate Sedimentation subteam that within a single peristaltic water pump rotation, immense pressure was built and released within the flocculator.  As this effect was more pronounced at lower flow rates, this introduced another variable in floc formation when varying velocity gradient. Thus, a pressure attenuator was added to mitigate the large pressure release to the flocculator from each perstaltic water pump rotation.
+Additionally, a pressure attenuator (denoted in Figure 3) is incorporated into the High G setup (located between the water pump and influent turbidimeter). It was noted by the High Rate Sedimentation subteam that within a single peristaltic water pump rotation, immense pressure was built and released within the flocculator.  As this effect was more pronounced at lower flow rates, this introduced another variable in floc formation when varying velocity gradient. Thus, a pressure attenuator was added to mitigate the large pressure release to the flocculator from each perstaltic water pump rotation.
 
-<div class="alert alert-block alert-danger">
-Wrong figure number in first sentence
-</div>
 
-It is important to note that a waste stream between the flocculator and tube settler is also incorporated into the experimental setup. The intention of this waste stream is to maintain a constant upflow velocity in the sedimentation tank while varying G in the flocculator.
-
-<div class="alert alert-block alert-danger">
-Photo of waste stream? Can't picture it.
-
-How does the waste stream maintain that velocity? I am confused how the wate stream does this? Also does the waste stream collect and concentrate the waste or?
-</div>
-
+It is important to note that a waste stream between the flocculator and tube settler is also incorporated i nto the experimental setup. The intention of this waste stream is to maintain a constant upflow velocity in the sedimentation tank while varying G in the flocculator. This is achieved through conservation of mass as the stream can only flow through the sedimentation tank and the effluent. The waste pump allows for a set amount of flow into the sedimentation tank while the rest flows out in the effluent.
 
 The following is a general outline of the team's experimental setup. Refer to Figure 3 for images and locations of the stated equipment. Steps on how to use the High G experimental apparatus are detailed in the Manual below.
 
@@ -167,32 +93,23 @@ Steps on how to use the High G experimental apparatus are detailed below.
 6. Turn on influent, effluent, and coagulant  pumps.
 7. Set state to PID control in ProCoDA (this will turn on clay pump, water pump and also turn on data collection).
 
+Throughout the experiments, the data we will be collecting and analyzing is the headloss through the flocculator with time.
+
 Figure 5, below, is a general process flow diagram of High G Flocculation experimental procedure.
 
 ![ProcessFlowDiagram](https://github.com/MehrinSelimgir/Personal_MS/blob/master/ProcessFlowDiagram.PNG?raw=true)
 **Figure 5: High G Flocculation Process Flow Diagram**
 
-<div class="alert alert-block alert-danger">
-What data are you collecting?
-</div>
-
 ## Results and Analysis
 
 When conducting the experiment comparing the headloss in identical experiments with solely changing the tubing from regular (non-hydrophobic) tubing to hydrophobic tubing, the trial yield achieved the following results (Figure 6 & 7).
 
-<div class="alert alert-block alert-danger">
-Where is the tubing used?
-</div>
 
 ![nonhydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20Regular%20tubing.PNG?raw=true)
 **Figure 6: Graph of Headloss vs. Time for Regular Tubing**
 
- ![hydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20hydrophobic%20tubing.PNG?raw=true)
+ ![hydrophobic](https://github.com/AguaClara/high_g_flocculation/blob/master/Full%20test,%20hydrophobic%20tubing-%20fixed.PNG?raw=true)
  **Figure 7: Graph of Headloss vs. Time for Hydrophobic Tubing**
-
- <div class="alert alert-block alert-danger">
-Why is the text box "Chart Area" in this figure?
- </div>
 
 The results showed an insignificant difference in headloss reduction since, in both experiments, the trial started at around 70cm and after 10 hours reached 120cm at a constant rate. This showed that the hydrophobic tubing was ineffective at minimizing headloss due to the coagulant.
 
@@ -203,26 +120,10 @@ In order to determine the cause of pressure build-up, trials were conducted test
 
 This experiment eliminated the possibility that the pressure build up was caused simply due to the actual set up of this experiment. This was consistent with the hypothesis, and the observation that whenever a new trial was ran, the pressure difference started at the same value every time. However, the team did see a small increase in pressure. This minor change in pressure could perhaps be attributed to changes in viscosity due to temperature changes throughout the day, but does not explain the majority of the increase in pressure. For the following experimental trials, the team wanted to observe how headloss behaved when adding coagulant into the system.
 
-<div class="alert alert-block alert-danger">
-Why didn't you do more iterations to show that the minor increase meant nothing?
-</div>
-
-![water+coagulant,regtub](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing.PNG?raw=true)
+![water+coagulant,regtub](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing%20-fixed.PNG?raw=true)
 **Figure 9: Graph of Headloss vs. Time, Regular Tubing, Water & Coagulant Trial**
 
-Due to the computer restarting overnight, ProCoDA only recorded 3 hours of data for this trial. Nonetheless, the results were unexpected compared to what was hypothesized. The team's initial belief was that the combination of the coagulant with the clay was the primary cause of the headloss. Instead, this data (Figure 9) shows that the coagulant alone caused a significant pressure increase. In fact, the pressure increase was even more significant. Within 3 hours, the pressure was able to rise from 70cm to 95cm, a significant increase in headloss comparatively to running the experiment with both clay and coagulant. In experiments running both coagulant and clay, headloss would increase from 70cm to 85cm in 3 hours whereas running solely clay had an increase from 70cm to 95cm in the same time. To ensure the hydrophobic tubing makes an insignificant difference in headloss, the same experiment was ran again with hydrophobic tubing. Through this experiment, the difference between coagulant build up in the different tubings can be isolated to ensure it was not the clay causing the hydrophobic tubings inability to prevent coagulant build up.
-
-<div class="alert alert-block alert-danger">
-How much did pressure increase compared to the initial experiments with clay and coagulant that sparked this inquiry?
-
-Why did you think that clay and coagulant together would cause the pressure rise?
-
-You talk about coagulant alone first having a significant pressure increase, then transition to clay and coagulant together. Then it seems like you wrote clay had a significant increase by itself rather than coagulant. This is getting confusing and may be a mistake. If not and both coagulant and clay alone have significant pressure increases (greater than clay and coagulant together), then make this more clear. Also, why would clay alone have a higher build-up time?
-
-Work on analysis of the results. Consider splitting up the paragraph for clarity.
-
-Revise this paragraph for unnecessary sentence repetitions
-</div>
+Due to the computer restarting overnight, ProCoDA only recorded 3 hours of data for this trial. Nonetheless, the results were unexpected compared to what was hypothesized. The team's initial belief was that the combination of the coagulant with the clay was the primary cause of the headloss. Instead, this data (Figure 9) shows that the coagulant alone caused a significant pressure increase. In fact, the pressure increase was even more significant than experiments running with coagulant and clay.  In experiments running both coagulant and clay, headloss would increase from 70cm to 85cm in 3 hours whereas running solely coagulant had an increase from 70cm to 95cm in the same time. To ensure the hydrophobic tubing makes an insignificant difference in headloss, the same experiment was run again with hydrophobic tubing. Through this experiment, the difference between coagulant build up in the different tubings can be isolated.
 
 ![water+coagulant,hydtub](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Hydrophobic%20Tubing.PNG?raw=true)
 **Figure 10: Graph of Headloss vs. Time, Hydrophobic Tubing, Water & Coagulant Trial**
@@ -235,7 +136,7 @@ Revise sentence two for content.
 Also figures 11 and 12 show a significant change between the two piping choices. But earlier you said there was no difference. Explain these results more.
 </div>
 
-![water+coagulant,regtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing.PNG?raw=true)
+![water+coagulant,regtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Regular%20Tubing%20-fixed.PNG?raw=true)
 **Figure 11: Graph of Headloss vs. Time, Regular Tubing, Water & Coagulant, 3-Hr Trial**
 
  ![water+coagulant,hydtub3](https://github.com/AguaClara/high_g_flocculation/blob/master/Water%20+%20Coag,%20Hydrophobic%20Tubing(3).PNG?raw=true)
@@ -246,44 +147,23 @@ Another observation from this trial is the sudden drop in pressure around the ho
 ![pressuredrop](https://github.com/AguaClara/high_g_flocculation/blob/master/pressuredrop.PNG?raw=true)
 **Figure 13: Refined View of 12th-Hr Pressure Drop, Hydrophobic Tubing, Water & Coagulant Trial**
 
-<div class="alert alert-block alert-danger">
-When the coagulant ran out, did the clay continue to pump in?
-
-While this drop is significant, it would be interesting to know how quickly the the pressure increases when more coagulant is added again.
-
-Have you gotten any other results like this?
-</div>
-
 In all of our experiments observing the increase of headloss throughout the flocculator, we noticed that the pattern of pressure increase was consistently linear with time. To best compare experiments we measured the slope at which the pressure increased (∆cm/hr).
 
 
-![BarChart](https://raw.githubusercontent.com/AguaClara/high_g_flocculation/master/Slopes%20of%20Pressure%20Increase%207mgl.PNG)
+![BarChart](https://github.com/AguaClara/high_g_flocculation/blob/master/clay%20graphs.png?raw=true)
 **Figure 14: Slope of Pressure Increase across 4 different experiments**
 
-<div class="alert alert-block alert-danger">
-These make me question if the tubing does actually have an effect even when you state that it does not. If you are transitioning the focus away from the tubing, do not raise quesitons in your readers about whether that first conslusion (that tubing choice doesn't matter) is wrong. Edit: I see in a later paragraph you address this, so maybe consider moving that up in the analysis.
-
-Numbers and text in the figure is too small.
-</div>
+Comparing hydrophobic and regular tubing experiments, we observed that the hydrophobic tubing experiments had higher pressure increases. Since we did not observe a significant benefit in using hydrophobic tubing (contrarily, we saw higher pressure increases) we determined that hydrophobic tubing was ineffective in mitigating pressure increase and continued our following experiments with regular tubing.
 
 The chart above shows that experiments ran with clay had lower pressure increases compared to experiments with only PACl. This suggests that coagulant is the main contributor to pressure increase and that the presence of clay counteracts pressure increase by "using up" PACl.
 
-Also comparing hydrophobic and regular tubing experiments, we observed that the hydrophobic tubing experiments had higher pressure increases. Since we did not observe a significant benefit in using hydrophobic tubing (contrarily, we saw higher pressure increases) we determined that hydrophobic tubing was ineffective in mitigating pressure increase and continued our following experiments with regular tubing.
-
 After seeing that the headloss in the flocculator dropped significantly once the coagulant ran out, the next step we tested whether this same result can be mimicked by pushing water through the flocculator at a more rapid speed to 'knock off' the coagulant build up. We first tried to see if we could use a 100ml syringe to push water through the system. The minimum time of emptying the syringe attained was 3.5 seconds, resulting in a very short but high shear push through the flocculator. Below is a screenshot of the ProCoDa readings of the filling and ejecting of water.
-
-<div class="alert alert-block alert-danger">
-The content in this section overall is good, but it is not easy to read because the ideas bounce around. It seems like this is the order that you discovered these things in, but that might not be the best way to explain them to your reader.
-</div>
 
 ![syringe-pressure](https://github.com/AguaClara/high_g_flocculation/blob/master/syringe%20test.PNG?raw=true)
 **Figure 15: ProCoDa reading of pressure sensor during a syringe press**
 
-<!--For final project- insert ProCoDa reading of syringe press after pressure has been built up  --->
-
 From this image, it can be seen that as the syringe is being filled, the pressure drops below zero as flow is now in the opposite direction (the syringe is being filled before the flocculator so water from the pump is being pushed into the syringe and water from the flocculator is being drawn backwards into the syringe). Once filled, the pressure readings began to normalize. When ejecting the water from the syringe to the original, a substantial pressure difference was caused, reaching 500 cm of pressure. After reaching the peak pressure, the headloss through the flocculator slowly begins to stabilize back to its original headloss of 100cm.
 
-<!--This is somewhat hard to explain, we may take a video of this for our final presentation. Maybe we will anotate the drawing --->
 
 The set up enabled the High G team to test whether high flow water would be capable of knocking off all of the built up coagulant. To accomplish this, we ran an experiment with water and coagulant for 2 days to build up a substantial pressure difference in the flocculator. Then, the syringe was used in attempt to clear the tubing.
 
@@ -291,15 +171,7 @@ The set up enabled the High G team to test whether high flow water would be capa
 
 **Figure 16:  Pressure Sensor Data of Syringe Experiment**
 
-<div class="alert alert-block alert-danger">
-Where do you reference and explain Figure 16?
-</div>
-
-From this experiment, we see that pushing water through the flocculator at a high speed is indeed capable of clearing out the PACl responsible for increasing the pressure in the flocculator tubing. The pressure drop while filling the syringe and the pressure increase when ejecting the water has been neglected in the image in order to focus on the effect of the burst of water. The high sheer from the increased flow was successful in clearing the built up coagulant and dropping the pressure form 160cm to 80cm.
-
-<div class="alert alert-block alert-danger">
-What was the original pressure?
-</div>
+From figure 16, we see that pushing water through the flocculator at a high speed is indeed capable of clearing out the PACl responsible for increasing the pressure in the flocculator tubing. The pressure drop while filling the syringe and the pressure increase when ejecting the water has been neglected in the image in order to focus on the effect of the burst of water. The high sheer from the increased flow was successful in clearing the built up coagulant and dropping the pressure form 160cm to 80cm.
 
 Although using the syringe was successful in removing the coagulant build up, it would be an inefficient method to remove coagulant throughout a long trial. It would require periodic manual labor and would be impractical for overnight trials. Our next experiments moved towards utilizing ProCoDa to automate the high flow of water through the flocculator.
 
@@ -308,41 +180,33 @@ While testing different pumps speeds, we found that the tubing separates from th
 As our experiments ran at a normal flow rate of 190 ml/min, the first high speed pump experiment was set to increase flow of water to 3x the normal flow rate for 2 seconds at 28.8% of maximum capacity (600 ml/min) every hour.
 
 
-![600ml-2sec](https://github.com/AguaClara/high_g_flocculation/blob/master/600-2sec.PNG?raw=true)
+![600ml-2sec](https://github.com/AguaClara/high_g_flocculation/blob/master/600-2sec-fixed.PNG?raw=true)
 **Figure 17: Injecting flow at 600ml/min 2 sec every hour**
 
-<div class="alert alert-block alert-danger">
-Figure text is really small. Figure titles are inconsistent throughout report.
-</div>
+From ,figure 17 we see that this experiment was unsuccessful in mitigating pressure. However, from the data it can be seen that the bursts made an insignificant pressure increase - only an increase of about 30 cm- compared to around 400 cm for the syringe experiment. While visually observing the experiment, we saw that much the excess flow was accumulating in the flow accumulator and not actually passing into the flocculator. The next experiment was ran with a 10 second burst of increased flow (up from 2 seconds) and this flow rate produced roughly 300cm of pressure difference. Unsure if this was enough, the team decided to start from the highest value possible and move down. The next experiment was set to send bursts at at 50% maximum capacity (1120ml/min) for 10 second burst every hour.
 
-From this graph, we see that this experiment was unsuccessful in mitigating pressure. However, from the data it can be seen that the bursts made an insignificant pressure increase - only an increase of about 30 cm- compared to around 400 cm for the syringe experiment. While visually observing the experiment, we saw that much the excess flow was accumulating in the flow accumulator and not actually passing into the flocculator. The next experiment was ran with a 10 second burst of increased flow (up from 2 seconds) and this flow rate produced roughly 300cm of pressure difference. Unsure if this was enough, the team decided to start from the highest value possible and move down. The next experiment was set to send bursts at at 50% maximum capacity (1120ml/min) for 10 second burst every hour.
-
-<div class="alert alert-block alert-danger">
-When referring to graphs, reference them by their number
-
-Revise for grammar
-</div>
-
-![0.5-10sec](https://github.com/AguaClara/high_g_flocculation/blob/master/1120-10sec.PNG?raw=true)
+![0.5-10sec](https://github.com/AguaClara/high_g_flocculation/blob/master/1120-10sec-fixed3.PNG?raw=true)
 
 **Figure 18: Injecting 1120ml/min at 10 sec**
 
-<!--- We need to change the unit on the x-axis to hours --->
-
-From this graph, we saw that the bursts of flow was sufficient to prevent the build up of coagulant. Our goal is to find the lowest possible increase of flow needed to still successfully deter pressure increase. The next experiment was set up to send 10 second burst of water at 40% of the maximum capacity (880ml/min) every hour.
+From figure 18, we saw that the bursts of flow was sufficient to prevent the build up of coagulant. Our goal is to find the lowest possible increase of flow needed to still successfully deter pressure increase. The next experiment was set up to send 10 second burst of water at 40% of the maximum capacity (880ml/min) every hour.
 
 
-![0.4-10sec](https://github.com/AguaClara/high_g_flocculation/blob/master/880-10sec.PNG?raw=true)
+![0.4-10sec](https://github.com/AguaClara/high_g_flocculation/blob/master/880-10sec-fixed.PNG?raw=true)
 
 **Figure 19: Injecting 880ml/min 10 sec**
 
-From this graph, we see that the burst of flow was unable to prevent the build up of coagulant in the tubing. Thus, the next experiment will be set to send bursts of 45% (1000ml/min) for 10 second every hour, as it is a value between the successful and unsuccessful trial.
+From figure 19, we see that the burst of flow was unable to prevent the build up of coagulant in the tubing. Thus, the next experiment will be set to send bursts of 45% (1000ml/min) for 10 second every hour, as it is a value between the successful and unsuccessful trial.
 
-<div class="alert alert-block alert-danger">
-These results are exciting!!
-</div>
+![0.45-10sec](https://github.com/AguaClara/high_g_flocculation/blob/master/1000-10sec.PNG?raw=true)
+**Figure 20: Injecting 1000 ml/min 10 sec**
 
-<!--- We are currently in the middle of this trial, will post results soon --->
+From figure 20, we can deduce that this experiment was a success as the there was no buildup of pressure in the flocculator. To move forward, the next experiment will be set to send bursts at 42.5% (940 ml/min) for 10 seconds ever hour as it is the value between the highest unsuccessful trial of 0.4 and the lowest successful trial of 0.45.
+
+![0.425-10sec](https://github.com/AguaClara/high_g_flocculation/blob/master/940-10sec.PNG?raw=true)
+**Figure 21: Injecting 940 ml/min 10 sec**
+
+From this experiment in figure 21, we can deduce that the experiment was unsuccessful as the head loss still increased. Hence, we have got the lowest value of 1000ml/min bursts every hour for 10 seconds. This values will now be converted into determining the shear value required to remove the coagulant.
 
 ## Conclusions
 From comparing trials using Hydrophobic and Non-Hydrophobic tubing, we saw that hydrophobic tubing is not effective in preventing pressure increase, so research teams have been advised to continue using Non-Hydrophobic tubing.
@@ -364,10 +228,10 @@ Possible future experiment for future teams include:
 
 1. Testing different flocculator tubing sizes-  is an optimal G value for flocculation consistent with all flocculator sizes
 2. Working with HRS to find the reason for floc blanket decay and declining removal efficiency as their experiments progress.
-3. Measuring the amount of coagulant that sticks to flocculator walls, and determining the physical method by which causes pressure increase in the flocculator. 
+3. Measuring the amount of coagulant that sticks to flocculator walls, and determining the physical method by which causes pressure increase in the flocculator.
 
 ## Bibliography
-AWWA/ASCE (2012).Water Treatment Plant Design.*Water Treatment Plant Design*. McGraw Hill,New York, fifth edition.
+AWWA/ASCE (2012).Water Treatment Plant Design.*Water Treatment Plant Design*. McGraw Hill,New York,fifth edition.
 
 Carissimi, E., Miller, J., and Rubio, J.   (2007). Characterization of the high kinetic energy dissipation of the Flocs Generator Reactor (FGR) - ScienceDirect.
 
@@ -383,29 +247,21 @@ Pennock,  W.  H.,  Chan, F.  C.,  Weber-Shirk,  M.  L., and  Lion,  L.  W.  (201
 
 Swetland, K. A., Weber-Shirk, M. L., and Lion, L. W. (2014). Flocculation-Sedimentation Performance Model for Laminar-Flow Hydraulic Flocculation with Polyaluminum Chloride and Aluminum Sulfate Coagulants. *Journal of Environmental Engineering*, 140(3):04014002.
 
-<div class="alert alert-block alert-danger">
-Very few of these are mentioned in report. Remember to use in-text citations.
-</div>
-
 # Manual
 
 ## Fabrication Details
 The majority of the High G Flocculation experimental apparatus consists of pre-manufactured equipment (pumps, stock tanks, turbidimeters, and pressure sensor). The sedimentation tube settler is fabricated by the High Rate Sedimentation subteam. The hydraulic flocculators are fabricated by the High G Flocculation team. The flocculators are assembled by wrapping the desired tubing (hydrophobic or regular) around a hollow, cylindrical piece of cardboard.  The flocculator is then mounted on to the experimental apparatus on adjustable metal hose clamps.
 
 ## Special Components
-As a possible solution to pressure build up, this semester the team invested in fabricating a hydraulic flocculator using hydrophobic tubing. The initial experimental trials indicate that hydrophobic tubing produced an insignificant mitigation to headloss. Figure 20, below, summarizes the general technical specifications, pricing, and vendor information for both hydrophobic and regular tubing.
+As a possible solution to pressure build up, this semester the team invested in fabricating a hydraulic flocculator using hydrophobic tubing. The initial experimental trials indicate that hydrophobic tubing produced an insignificant mitigation to headloss. Figure 22, below, summarizes the general technical specifications, pricing, and vendor information for both hydrophobic and regular tubing.
 
 ![FlocculatorTubing](https://github.com/MehrinSelimgir/Personal_MS/blob/master/FlocculatorTubing.png?raw=true)
-**Figure 20: Hydrophobic and Regular Tubing Information**
+**Figure 22: Hydrophobic and Regular Tubing Information**
 
-In order to test whether injecting a short burst of fluid can effectively knock off coagulant built up in the flocculator, the High G team also incorporated a syringe in the experimental apparatus. The specifications for the syringe are detailed below in Figure 21.
+In order to test whether injecting a short burst of fluid can effectively knock off coagulant built up in the flocculator, the High G team also incorporated a syringe in the experimental apparatus. The specifications for the syringe are detailed below in Figure 23.
 
 ![syringe](https://github.com/MehrinSelimgir/Personal_MS/blob/master/syringe.PNG?raw=true)
-**Figure 21: Plastic Syringe Specifications**
-
-<div class="alert alert-block alert-danger">
-Is it possible to link to McMaster Carr?
-</div>
+**Figure 23: Plastic Syringe Specifications**
 
 ## Experimental Checklist
 **(Including Pre-Experiment Cleaning)**
@@ -438,16 +294,9 @@ The next state is called Fast pump, ProCoDA runs the following rule:
 
 This creates and hourly cycle of going from running the pumps at a normal speed to running them fast for a short period of time.
 
-<div class="alert alert-block alert-danger">
-Consider different mode of organization like tables with short descriptions. I'm having difficulty reading it easily.
-</div>
+
 
 ### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
-
-<div class="alert alert-block alert-danger">
-Delete the instructions
-</div>
 
 | Set Point             | Setting |
 |:--------------------- |:------- |
@@ -472,9 +321,6 @@ Calculations were done in Python to determine PaCl coagulant dosing parameters a
 
 ###PaCl Dosing Calculations
 
-<div class="alert alert-block alert-danger">
-How did you determine coagulant dosing - reference materials or recreate things.
-</div>
 The calculation logic for determining the coagulant dosing are derived from Dr. Monroe Weber-Shirk's CEE 4540 Lecture notes.
 
 ```python
@@ -485,34 +331,27 @@ C_sys = 1.4*(u.mg/u.L)
 C_labstock = 70.9*(u.g/u.L)
 Q_sys = 1.48*(u.mL/u.s)
 K_dilution = .8*(u.mL/u.L)
-V_resivor = 5*(u.L)
-Frac_resivor = .76
+V_reservoir = 5*(u.L)
+Frac_reservoir = .76
 Q_per_rpm = .001828 *(u.mL/u.s)
 
 #Calculations
 M_flow_coag = (Q_sys * C_sys).to(u.mg/u.s)
-C_resivor = (C_labstock * K_dilution).to(u.gram/u.L)
-Q_resivor = (M_flow_coag / C_resivor).to(u.mL/u.s)
-V_lab = ((V_resivor * C_resivor) / C_labstock).to(u.L)
+C_reservoir = (C_labstock * K_dilution).to(u.gram/u.L)
+Q_reservoir = (M_flow_coag / C_reservoir).to(u.mL/u.s)
+V_lab = ((V_reservoir * C_reservoir) / C_labstock).to(u.L)
 
 #Outputs
-RPM = Q_resivor / Q_per_rpm
-RunTime = ((V_resivor * Frac_resivor) / Q_resivor).to(u.hour)
+RPM = Q_reservoir / Q_per_rpm
+RunTime = ((V_reservoir * Frac_reservoir) / Q_reservoir).to(u.hour)
 
 print('The RPM needed for this coagulent dosage is' ,RPM)
 
 print('The run time is ', RunTime)
 ```
 
-<div class="alert alert-block alert-danger">
-Check spelling of variable names
-</div>
 
 ### Flocculator Design Calculations
-
-<div class="alert alert-block alert-danger">
-Check spelling/grammar
-</div>
 
 Depending on what specifically future teams are intending to test, all input variables will need to be assessed and adjusted accordingly.
 
@@ -579,9 +418,58 @@ L_goal=theta_goal*(Q_reactor/Area)
 L_floc=L_goal
 print('The length of flocculator tubing should be', L_floc.to(u.ft))
 ```
+#Velocity gradient and shear needed to remove coagulant nanoparticles from tube walls
 
+The purpose of this code is to convert the head loss value (observed through experimentation) that is enough to shear the coagulant nanoparticles from the tube walls to a velocity gradient and shear value.
 
 ```python
+from aide_design.play import*
+import math as m
+
+#Inputs are Q_reactor, Diam_floctube,tube_length, v_k, v_d, h
+Q_reactor=((1120) *(u.mL/u.min)).to(u.ml/u.second) # flow rate of the system
+
+Q_Reactor=(Q_reactor).to(u.ft**3/u.second)
+
+#print(Q_Reactor)
+
+Diam_floctube=((3/16)*(u.inch)).to(u.ft)
+
+radius_floctube=Diam_floctube/2
+
+#print(Diam_floctube)
+
+tube_length=43*(u.ft) #length of flocculator tubing
+
+floc_vol=np.pi*(radius_floctube**2)*tube_length
+
+theta=floc_vol/Q_Reactor #residence time
+
+#print(theta)
+
+h=(420*u.cm).to(u.m)#headloss needed to shear coagulant nanoparticles from the tube walls
+v_k=(1*10**-6)*(u.m**2/u.s) #kinematic viscosity of water @ 25 deg C
+
+G=((pc.gravity*h)/(theta*v_k))**(1/2) #velocity gradient
+
+print((G).to(u.hertz))#velocity gradient
+
+v_d=0.00089*(u.Pa*u.second) #dynamic viscosity of water @ 25 deg C
+#print(v_d)
+
+shear=v_d*G #shear needed to knock off coagulant from floc tubing
+
+print(shear)
+
+print('Thus',h, 'is enough to shear coagulant nanoparticles from the flocculator tubing. This head loss value correlates to a velocity gradient value of ' ,G,  'and a shear value of ' ,shear)
+
+
+
+
+
+```
+
+
 # To convert the document from markdown to pdf
 pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
 ```
