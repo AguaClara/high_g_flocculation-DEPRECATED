@@ -300,7 +300,12 @@ The content in this section overall is good, but it is not easy to read because 
 
 <!--For final project- insert ProCoDa reading of syringe press after pressure has been built up  --->
 
-From this image, it can be seen that as the syringe is being filled, the pressure drops below zero as flow is now in the opposite direction (the syringe is being filled before the flocculator so water from the pump is being pushed into the syringe and water from the flocculator is being drawn backwards into the syringe). Once filled, the pressure readings began to normalize. When ejecting the water from the syringe to the original, a substantial pressure difference was caused, reaching 500 cm of pressure. After reaching the peak pressure, the headloss through the flocculator slowly begins to stabilize back to its original headloss of 100cm.
+From this image, it can be seen that as the syringe is being filled, the pressure drops below zero as flow is now in the opposite direction (the syringe is being filled before the flocculator so water from the pump is being pushed into the syringe and water from the flocculator is being drawn backwards into the syringe). 
+#### Tanvi: the part in parenthesis is key, so make it its own sentence.
+Once filled, the pressure readings began to normalize. When ejecting the water from the syringe to the original, a substantial pressure difference was caused, reaching 500 cm of pressure.
+#### Tanvi:Instead of dfifference, specify increase or decrease
+After reaching the peak pressure, the headloss through the flocculator slowly begins to stabilize back to its original headloss of 100cm.
+#### Tanvi: emphasize whether or not this is the pre-buildup headloss
 
 <!--This is somewhat hard to explain, we may take a video of this for our final presentation. Maybe we will anotate the drawing --->
 
@@ -375,7 +380,7 @@ Are you taking turbidity readings because I didn't see any in the results sectio
 Through our experiments, we have found a method to automate the removal of coagulant build-up through bursts of high-speed water through the flocculator.
 
 While our prior hypothesis stated that a decline in the performance of our treatment process was likely from coagulant being lost to the flocculator walls instead of interacting with clay, the current High Rate Sedimentation team has found that the PACl buildup is not a factor in declining removal efficiency. For our experiment that means that mitigating an increase in headloss will not necessarily lead to negating a decline in removal efficiency, but removals teams will have more consistent long term experiments by not having to take into account a pressure increase throughout the flocculator.
-
+#### Tanvi: really great content, but a whole lot o first person and informal language. 
 
 ## Future Work
 
